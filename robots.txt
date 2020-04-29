@@ -1,1 +1,1 @@
-Sitemap: http://gullys.website/blog/sitemap.xml
+Sitemap: http://gullys.website/tech_blog/sitemap.xml
