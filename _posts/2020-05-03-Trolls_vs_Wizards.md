@@ -1,6 +1,6 @@
 ---
 title: Trolls vs. Wizards 
-description: Presenting data science as a battle between trolls and wizards \(first written: May 2017, updated: May 2020\)
+description: Presenting data science as a battle between trolls and wizards \[first written: May 2017, updated: May 2020\]
 layout: default
 ---
 By *Gully A. Burns*
