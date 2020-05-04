@@ -3,6 +3,7 @@ title: Trolls vs. Wizards
 description: Presenting data science as a battle between trolls and wizards; first written on May 2017, updated on May 2020
 layout: default
 ---
+# Trolls vs. Wizards 
 By *Gully A. Burns*
 
 > <small>"Trolls were large monsters of limited intellect. They were strong and vicious, but they could not endure sunlight"<br>
