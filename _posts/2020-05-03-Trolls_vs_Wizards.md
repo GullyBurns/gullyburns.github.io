@@ -1,6 +1,6 @@
 ---
-title: Don't Be a Troll, Be a Wizard! 
-description: A vision for how scientific knowledge engineering could support data-driven policy development. This is a preliminary high-level strategic document to develop such tools to support efforts such as 314 Action. 
+title: Trolls vs. Wizards 
+description: A  fun introduction to the notion of data science as an adversarial contest between trolls and wizards (first written: May 2017, updated: May 2020)
 layout: default
 ---
 By *Gully A. Burns*
@@ -8,76 +8,26 @@ By *Gully A. Burns*
 > <small>"Trolls were large monsters of limited intellect. They were strong and vicious, but they could not endure sunlight"<br>
 > \- *[tolkiengateway.net/wiki/Trolls](http://tolkiengateway.net/wiki/Trolls)*</small>
 
-Technologically, we live in interesting times. On the one hand, social 
-media technology drives political discourse into polarized shouting matches. Astroturfing bots 
-contort the political landscape by pushing false narratives on Twitter with incendiary, 
-ill-informed talking points. The ease of web-publishing makes it relatively easy to 
+We live in interesting times. On the one hand, social media drives public discourse into polarized
+shouting matches. Astroturfing bots contort the information landscape by pushing false narratives
+on Twitter with incendiary, ill-informed talking points. The ease of web-publishing makes it relatively easy to 
 drown out informative scientific work by spreading misinformation in coordinated online media campaigns. 
 
-But on the other hand, advances in information science  drive public engagement in science.
-Citizen scientist projects permit laypeople to contribute directly to research.
-Massive Open Online Courses (MOOCs) provide pedagogical support for technically demanding subjects to 
-more communitites than ever before. The information infrastructure of science itself is evolving 
+But also, tech advances drive public engagement and citizen scientists contribute directly to research more 
+than ever before. It's easier to any number of technically-demanding subjects with 
+Massive Open Online Courses (MOOCs). The information infrastructure of science itself is evolving 
 to change and accelerate the path towards discovery. 
 
-These two aspects are sharply opposed, especially when it comes to online discussions of policy.
-The first approach is based on misinformation, manipulation, provocation, and storytelling. These 
-approaches are generally developed by unscrupulous operators attempting to control a particular public 
-narrative through any means necessary. Let's call the instigators of such methods '[Trolls](http://www.urbandictionary.com/define.php?term=troll)'.
-The second approach is based on hard work, research, a nuanced view of reality in the service of 
-the pursuit of scientific truth. This less-popular, more long-term (and therefore more powerful) 
-approach requires diligence, honesty, intelligence, and patience. To emphasize the contrast with the formerly-mentioned misbeggoten misinformationists, 
-I here propose that we call people pursuing this endeavor 'Wizards'. Thus, somewhat, in the spirit of 
-pure geekiness, we frame the argument as a perrenial war of political storytelling between two factions:
+These two aspects are sharply opposed. The first approach is based on misinformation, manipulation, provocation,
+and storytelling. Let's call the instigators of such methods '[Trolls](http://www.urbandictionary.com/define.php?term=troll)'.
+The second approach is based on expertise, hard work, and a nuanced view of reality in order to find 
+effective explanations for real phenomena. This work requires diligence, honesty, intelligence, and patience. 
+Let's call anyone pursuing this endeavor 'Wizards'. Thus, I frame this argument as the perrenial struggle between
 wizards and trolls. 
 
-Now, the [mission statement of the 314 Action nonprofit group](http://www.314action.org/mission-1/), 
-reveals them to be clearly on the Wizards' team. Their primary goal to empower scientific information 
-to carry further within the process of setting policy, either by electing scientifically-trained 
-politicians or by empowering data-driven policy and scientific research within society. 
+### How to fight trolls - a wizard's field guide. 
 
-Our work in scientific knowledge engineering (and, more broadly, in artificial 
-intelligence) directly supports 314 Action's vision by developing technology to be used to 
-improve access to complex scientific knowledge. Moreover, the people 314 Action are seeking to introduce 
-into public life would be trained to think scientifically and to adopt pragmatic, data-driven methodologies. 
-Put simply, if 314 Action provides the wizards, then we can provide the spells.
-
-I elaborate further below. 
-
-### A Challenge Problem: the Argument over Climate Change  
-
-Once of the key issues raging in public policy discourse discussions in 
-the United States is *climate change*. Debate in this area largely centeres around the following question:
-
-><small>*Is the planet warming up because of increased 
-CO<sub>2</sub> in the atmosphere from human activity and energy use?*</small>
-
-This is a contentious question despite a groundswell of public support amongst 
-progressives, combined with a broad consensus over the majority of scientists working in 
-the discipline. Most researchers either explicitly or implicitly agree that this is 
-indeed the case: the global temperature is increasing directly because of increased 
-levels of greenhouse gases in the atmosphere (most likely caused by human energy use). 
-Broad literature reviews generally confirm this point of view and even large scale 
-organizations that enjoy widespread public trust such as NASA agree full-throatedly
-that climate change poses a serious threat to humanity as a whole. 
-
-But there is also a powerful counter-movement at play within conservative circles: 
-*climate skepticism*. Proponents of this position claim that the science is *not* 
-settled, that potential risks of climate change to humanity are being unnecessary 
-amplified by liberals for political gain and that numerous details in the published
-account don't add up. Conservative bloggers attempt to 'debunk' published studies 
-with a wide range of counter arguments ranging from honing in on small scale anomalies,
-personal or broad-based *ad-hominim* attacks against climate scientists or climate 
-activists and the general use of misinformation to bombard opponents with assertions of 
-facts to simply wear them down and silence them. These argumentation tactics could 
-commonly be described as 'trolling' and can quite effective at convincing 
-observers that their arguments are better. Put simply, these tactics work very well.  
-
-### Trolls vs. Wizards
-
-The important issue here is that the debate being carried out on social media, on the 
-news and in the public eye generally is not based on scientific norms for understanding 
-how phenomena work. Scientific discussions are typically based on *abductive reasoning*: 
+Scientific discussions are typically based on *abductive reasoning*: 
 argument from evidence to the best available explanation. In the blood sport where 
 teams of trolls strive to defeat their opponents by any means necessary, the meagre 
 weapons of abductive reasoning can do little to withstand the assault of scorn, derision, 
@@ -117,7 +67,7 @@ inclusive and more democratic. We may need to transform the way scientists work
 and the way science is taught. This will require impeccability, creativity, 
 honesty, and courage. 
 
-### Information Science Wizardry 
+### Data Science Wizardry 
 
 So, here are some observations and strategies to consider going forward. 
 
@@ -136,9 +86,8 @@ and paradigms. Amongst these methods include:
     * A key capabilty is tracking the provenance of knowledge: *What is the evidence that supports our 
     argument that a given claim is true?*. This is an area of continuing, active research. 
     * Creative methods for data visualization are becoming more common and more powerful. 
-2. Within the climate change debate, previous attempts where scientists have adopted 'trollish' methods 
-failed spectacularly. 
-    * When researchers in England attempted to convert their scientific perspective into 
+2. Attempts where scientists have adopted 'trollish' methods failed spectacularly. 
+    * When climate researchers in England attempted to convert their scientific perspective into 
 a political strategy, leaks of their emails that revealed their attempts to construct a robust and compelling 
 poitical argument involved ham-fisted attempts to silence critics and steer the conversation. 'Climategate' 
 ensued, doing real and lasting harm both to the climate change debate and also to the credibility of 
@@ -151,7 +100,6 @@ Unfortunately, even a simple review of this study's own data,
 reveals vulnerabilities in the study that are easily revealed, see this blog post: 
 ['a climate falsehood you can check yourself'](http://daviddfriedman.blogspot.com/2014/02/a-climate-falsehood-you-can-check-for.html). 
 Attempting to use the dark arts of spin when creating a scientifically-driven policy argument is a bad idea. 
-    * We cannot and should not attempt to play these people at their own game. We will lose. 
     * At the 2017 White House Correspondents Dinner, Hasan Minhaj said "We're living in this 
     strange time, when ***trust is more important than truth***". ([video](https://youtu.be/Of6PLJbMnxE?t=12m45s)). 
     We have to find ways to establish trustworthiness with people who currently don't believe the 
@@ -160,17 +108,13 @@ Attempting to use the dark arts of spin when creating a scientifically-driven po
 is the scientific literature. This provides a valuable resource for knowledge engineering work 
 and building models of what is reported in the literature can provide insight into the underlying
 subject and influence public opinion.  
-    * This was the general idea of the Cook *et al.* 2014 consensus study but they did not dig deeply 
-    enough into the science. 
-    * What if we could take this further and use machine reading methods to extract and organize the evidence 
-    reported in the 12,000 papers they examined? 
-    * What if we could illustrate this evidence and showcase the scientific 
-    argument in precise detail? 
-    * Perhaps we could help tailor our view of the politics to more closely align 
-    with the scientific evidence, rather than only using the scientific evidence to bolster 
-    a preconceived underlying political position. 
-4. There are other related efforts attempting to render aspects of public life more fact-based and 
-    data-driven. This provides a working community of data-providers, developers and end-users as 
+    * As a human endeavor, the scientific literature is far from ideal. [People routinely game the system](https://www.bmj.com/content/339/bmj.b2680)  
+    to promote their own research, usually with honest intentions but sometimes not.
+    * Systems such as [CZI's Meta](https://meta.org), [scite.ai](http://scite.ai/), [AI2's Semantic Scholar](https://www.semanticscholar.org/) and others
+    use AI to improve and enable scientists' interactions with the literature. These tools are generally open access, 
+    and collaborate to enable and support each other.
+4. Beyond scientist-facing work, there are also other related efforts attempting to render aspects of public
+  life more fact-based and data-driven. This provides a working community of data-providers, developers and end-users as 
     well as possible frameworks for increasing the scope and impact of technology in multiple areas. 
     * [The FORCE11 group ('Future Of Research Communication and E-Scholarship)](https://www.force11.org) 
      is a wide-ranging academic / industry community with a broad mandate to bring about the 
@@ -189,8 +133,8 @@ the application of scientific methods to policy.
    * A number of non-profits have similar missions: ['Data 4 America'](https://data4america.org/about/) 
    is one such organization. 
 3. The public are very receptive to scientific content when it is presented in a compelling and interesting way. 
-    * Organizations such as the Technology Entertainment Design 
-conference (http://www.ted.com/) are massively popular and provide an excellent template for packaging and 
+    * Organizations such as [the Technology Entertainment Design (TED)
+conference](http://www.ted.com/) are massively popular and provide an excellent template for packaging and 
 presenting complex and compelling scientific ideas. 
     * Blogs such as framework Radiolab, Science Friday and Freakanomics regularly describe new scientific 
     developments in a public forum with great results. 
@@ -274,11 +218,13 @@ climate change.
 4. **Engaging people in this endeavor requires us to go beyond simple research.** For this work to have 
 an impact, we will require outreach and involvement far beyond the simple development of novel technology. 
 
-This post really has three purposes. Firstly, to frame the challenge as a conflict against 
-a well-funded and powerful adversary. Secondly, to pitch the idea of developing scientific 
-knowledge technology to 'wizardly' advocacy groups. Finally, to propose an initial pilot study. 
-This vision document seeks only to present a picture of how to do this in broad strokes in a 
-single, simple domain: clarifying and solidifying the climate change debate. From these humble 
-beginnings, we we would ultimately seek to provide better access to research for 
-policy makers wanting to incorporate existing research from any given field into 
-their platform.
+In 'the Martian', an incredible movie about a lone astronaut marooned on Mars, he [says](https://www.youtube.com/watch?v=BABM3EUo990):
+
+> In face of overwhelming odds, I'm left with only one option. I'm going to have to  science the s*** out of this.
+
+Clearly, this is the situation we all find ourselves in now, and 
+[all unnecessary Tolkein references aside](https://www.youtube.com/watch?v=_YmDT2BgI-0), solid science, honesty, and 
+hard work are only things that can solve challenges like COVID-19, Rare Disease, Neurodegenerative Disease, and maybe 
+even things like income inequality, homelessness, and poverty. 
+
+This is work for Wizards, let's go. 
