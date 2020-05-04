@@ -1,6 +1,6 @@
 ---
 title: Trolls vs. Wizards 
-description: Presenting data science as a battle between trolls and wizards \[first written: May 2017, updated: May 2020\]
+description: Presenting data science as a battle between trolls and wizards; first written on May 2017, updated on May 2020
 layout: default
 ---
 By *Gully A. Burns*
@@ -31,7 +31,7 @@ Scientific discussions are typically based on *abductive reasoning*:
 argument from evidence to the best available explanation. In the blood sport where 
 teams of trolls strive to defeat their opponents by any means necessary, the meagre 
 weapons of abductive reasoning can do little to withstand the assault of scorn, derision, 
-and bullshit (a word that we use here based on [a precise technical defintion](https://www5.csudh.edu/ccauthen/576f12/frankfurt__harry_-_on_bullshit.pdf)). 
+and '[bullshit](https://www5.csudh.edu/ccauthen/576f12/frankfurt__harry_-_on_bullshit.pdf)'. 
 
 But, knowledge is power. *Science is, after all, very much like magic.* Science is the basis 
 for technology, and try as they might, trolls cannot accomplish anything remotely as powerful. 
