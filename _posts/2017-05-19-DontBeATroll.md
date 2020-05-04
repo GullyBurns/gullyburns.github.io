@@ -108,7 +108,7 @@ You win."*</small>
 Personally, I am not comfortable with this easy capitulation. I prefer to take a leaf out of
  Gandalf's playbook even when faced with a daunting powerful foe. 
 
-![Gandalf vs. the Balrog](/img/ske/Lord-of-the-Rings-Gandalf-and-the-Baalrog.jpg)
+![Gandalf vs. the Balrog](/images/old_ske/Lord-of-the-Rings-Gandalf-and-the-Baalrog.jpg)
 
 Countering the troll 'full spectrum dominance' will require the development of 
 transformative approaches to remove barriers that laypeople experience in 
