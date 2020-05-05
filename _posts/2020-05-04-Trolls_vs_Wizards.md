@@ -85,7 +85,7 @@ and paradigms. Amongst these methods include:
     * Science information infrastructure is beginning to provide systems for reproducibility, scalability and 
     increased rigor such as Workflows, Ontologies, Information Integration systems. 
     * A key capabilty is tracking the provenance of knowledge: *What is the evidence that supports our 
-    argument that a given claim is true?*. This is an area of continuing, active research. 
+    argument that a given claim is true?* This is an area of continuing, active research, (see [Wadden et al. 2020](https://arxiv.org/abs/2004.14974)). 
     * Creative methods for data visualization are becoming more common and more powerful. 
 2. Attempts where scientists have adopted 'trollish' methods failed spectacularly. 
     * When climate researchers in England attempted to convert their scientific perspective into 
