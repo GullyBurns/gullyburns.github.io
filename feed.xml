@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://blog.gullys.website/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.gullys.website/" rel="alternate" type="text/html" /><updated>2020-05-05T00:43:59-05:00</updated><id>https://blog.gullys.website/feed.xml</id><title type="html">Scientific Knowledge Engineering Meets Data Science</title><subtitle>A technical blog about the transformation and empowerment of scientific knowledge through machine intelligence.</subtitle><entry><title type="html">Trolls vs. Wizards</title><link href="https://blog.gullys.website/2020/05/04/Trolls_vs_Wizards.html" rel="alternate" type="text/html" title="Trolls vs. Wizards" /><published>2020-05-04T00:00:00-05:00</published><updated>2020-05-04T00:00:00-05:00</updated><id>https://blog.gullys.website/2020/05/04/Trolls_vs_Wizards</id><content type="html" xml:base="https://blog.gullys.website/2020/05/04/Trolls_vs_Wizards.html">&lt;h1 id=&quot;trolls-vs-wizards&quot;&gt;Trolls vs. Wizards&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://blog.gullys.website/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.gullys.website/" rel="alternate" type="text/html" /><updated>2020-05-05T00:51:57-05:00</updated><id>https://blog.gullys.website/feed.xml</id><title type="html">Scientific Knowledge Engineering Meets Data Science</title><subtitle>A technical blog about the transformation and empowerment of scientific knowledge through machine intelligence.</subtitle><entry><title type="html">Trolls vs. Wizards</title><link href="https://blog.gullys.website/2020/05/04/Trolls_vs_Wizards.html" rel="alternate" type="text/html" title="Trolls vs. Wizards" /><published>2020-05-04T00:00:00-05:00</published><updated>2020-05-04T00:00:00-05:00</updated><id>https://blog.gullys.website/2020/05/04/Trolls_vs_Wizards</id><content type="html" xml:base="https://blog.gullys.website/2020/05/04/Trolls_vs_Wizards.html">&lt;h1 id=&quot;trolls-vs-wizards&quot;&gt;Trolls vs. Wizards&lt;/h1&gt;
 &lt;p&gt;By &lt;em&gt;Gully A. Burns&lt;/em&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -116,8 +116,11 @@ is the scientific literature. This provides a valuable resource for knowledge en
 and building models of what is reported in the literature can provide insight into the underlying
 subject and influence public opinion.
     &lt;ul&gt;
-      &lt;li&gt;As a human endeavor, the scientific literature is far from ideal. &lt;a href=&quot;https://www.bmj.com/content/339/bmj.b2680&quot;&gt;People routinely game the system&lt;/a&gt;&lt;br /&gt;
+      &lt;li&gt;As a human endeavor, the scientific literature is far from ideal. People routinely game the system (see &lt;a href=&quot;https://www.bmj.com/content/339/bmj.b2680&quot;&gt;Greenberg 2009&lt;/a&gt;&lt;br /&gt;
  to promote their own research, usually with honest intentions but sometimes not.&lt;/li&gt;
+      &lt;li&gt;A systematic review of analyses of the accuracy of citations in the scientific literature shows that approximately&lt;br /&gt;
+ 14.5% (10.5% to 18.6% at a 95% confidence interval) of cited facts in biomedical papers are wrong, and 64.8% of those
+ errors are serious (see &lt;a href=&quot;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0184727&quot;&gt;Mogull 2017&lt;/a&gt;))&lt;/li&gt;
       &lt;li&gt;Systems such as &lt;a href=&quot;https://meta.org&quot;&gt;CZI’s Meta&lt;/a&gt;, &lt;a href=&quot;http://scite.ai/&quot;&gt;scite.ai&lt;/a&gt;, &lt;a href=&quot;https://www.semanticscholar.org/&quot;&gt;AI2’s Semantic Scholar&lt;/a&gt; and others
  use AI to improve and enable scientists’ interactions with the literature. These tools are generally open access, 
  and collaborate to enable and support each other.&lt;/li&gt;
@@ -248,7 +251,7 @@ an impact, we will require outreach and involvement far beyond the simple develo
 &lt;p&gt;In ‘the Martian’, an incredible movie about a lone astronaut marooned on Mars, he &lt;a href=&quot;https://www.youtube.com/watch?v=BABM3EUo990&quot;&gt;says&lt;/a&gt;:&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;In face of overwhelming odds, I’m left with only one option. I’m going to have to  science the s*** out of this.&lt;/p&gt;
+  &lt;p&gt;In face of overwhelming odds, I’m left with only one option. I’m going to have to science the s*** out of this.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Clearly, this is the situation we all find ourselves in now, and 
