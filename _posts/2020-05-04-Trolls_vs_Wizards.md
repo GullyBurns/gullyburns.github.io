@@ -32,7 +32,7 @@ Scientific discussions are typically based on *abductive reasoning*:
 argument from evidence to the best available explanation. In the blood sport where 
 teams of trolls strive to defeat their opponents by any means necessary, the meagre 
 weapons of abductive reasoning can do little to withstand the assault of scorn, derision, 
-and '[bullshit](https://www5.csudh.edu/ccauthen/576f12/frankfurt__harry_-_on_bullshit.pdf)'. 
+and '[bullshit](https://en.wikipedia.org/wiki/On_Bullshit)'. 
 
 But, knowledge is power. *Science is, after all, very much like magic.* Science is the basis 
 for technology, and try as they might, trolls cannot accomplish anything remotely as powerful. 
