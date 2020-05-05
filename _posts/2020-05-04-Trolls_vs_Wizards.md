@@ -109,8 +109,11 @@ Attempting to use the dark arts of spin when creating a scientifically-driven po
 is the scientific literature. This provides a valuable resource for knowledge engineering work 
 and building models of what is reported in the literature can provide insight into the underlying
 subject and influence public opinion.  
-    * As a human endeavor, the scientific literature is far from ideal. [People routinely game the system](https://www.bmj.com/content/339/bmj.b2680)  
+    * As a human endeavor, the scientific literature is far from ideal. People routinely game the system (see [Greenberg 2009](https://www.bmj.com/content/339/bmj.b2680)  
     to promote their own research, usually with honest intentions but sometimes not.
+    * A systematic review of analyses of the accuracy of citations in the scientific literature shows that approximately  
+    14.5% (10.5% to 18.6% at a 95% confidence interval) of cited facts in biomedical papers are wrong, and 64.8% of those
+    errors are serious (see [Mogull 2017](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0184727)))   
     * Systems such as [CZI's Meta](https://meta.org), [scite.ai](http://scite.ai/), [AI2's Semantic Scholar](https://www.semanticscholar.org/) and others
     use AI to improve and enable scientists' interactions with the literature. These tools are generally open access, 
     and collaborate to enable and support each other.
@@ -221,7 +224,7 @@ an impact, we will require outreach and involvement far beyond the simple develo
 
 In 'the Martian', an incredible movie about a lone astronaut marooned on Mars, he [says](https://www.youtube.com/watch?v=BABM3EUo990):
 
-> In face of overwhelming odds, I'm left with only one option. I'm going to have to  science the s*** out of this.
+> In face of overwhelming odds, I'm left with only one option. I'm going to have to science the s*** out of this.
 
 Clearly, this is the situation we all find ourselves in now, and 
 [all unnecessary Tolkein references aside](https://www.youtube.com/watch?v=_YmDT2BgI-0), solid science, honesty, and 
