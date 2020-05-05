@@ -228,7 +228,9 @@ In 'the Martian', an incredible movie about a lone astronaut marooned on Mars, h
 
 Clearly, this is the situation we all find ourselves in now, and 
 [all unnecessary Tolkein references aside](https://www.youtube.com/watch?v=_YmDT2BgI-0), solid science, honesty, and 
-hard work are only things that can solve challenges like COVID-19, Rare Disease, Neurodegenerative Disease, and maybe 
+hard work are only things that can solve challenges like [COVID-19](https://chanzuckerberg.com/covid-19/),
+ [Rare Disease](https://chanzuckerberg.com/science/programs-resources/rareasone/), 
+ [Neurodegenerative Disease](https://chanzuckerberg.com/science/programs-resources/neurodegeneration-challenge/), and maybe 
 even things like income inequality, homelessness, and poverty. 
 
 This is work for Wizards, let's go. 
