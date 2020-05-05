@@ -47,7 +47,7 @@ This is was best said by Ben Goldacre in the last chapter of his book '[Bad Scie
 and Big Pharma Flacks](https://books.google.com/books?id=rDT9MO0r0UYC&lpg=PP1&pg=PP1#v=onepage&q&f=false)'. He writes:
 
 > <small>*"To anyone who feels their ideas have been challenged by this book or who has been made 
-angry by it - to the people who feature in it, I suppose - I would say this: you win. You really 
+angry by it - to the people who feature in it, I suppose - I would say this: **you win**. You really 
 do. I would hope that there might be room for you to reconsider, to change your stancein 
 the light of what might be new information (as I will happily do, if there is ever an opportunity 
 to update this book). But you will not need to because, as we both know, you collectively have 
