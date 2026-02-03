@@ -1,0 +1,84 @@
+---
+import Base from '../layouts/Base.astro';
+import SectionCard from '../components/SectionCard.astro';
+import { getCollection } from 'astro:content';
+
+// Get counts for each section
+const arsVeritatisPosts = await getCollection('ars-veritatis', ({ data }) => !data.draft);
+const blogPosts = await getCollection('blog', ({ data }) => !data.draft);
+const poems = await getCollection('poetry');
+const projects = await getCollection('projects');
+const rpgPosts = await getCollection('rpg');
+const workPosts = await getCollection('work');
+---
+
+<Base title="Gully Burns">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 py-16 sm:py-24">
+    <!-- Personal intro -->
+    <section class="mb-16">
+      <h1 class="text-4xl sm:text-5xl font-bold text-midnight-50 mb-6">
+        Hello, I'm Gully.
+      </h1>
+      <div class="space-y-4 text-lg text-midnight-300 max-w-2xl">
+        <p>
+          I build systems that help scientists work faster. My career has meandered through
+          physics, neuroscience, and knowledge engineering, always circling back to the same
+          question: how do we find truth in complex systems?
+        </p>
+        <p>
+          I write about epistemology, AI, and what it means to seek truth in an age of
+          information abundance. I also tinker with code and occasionally roll dice.
+        </p>
+      </div>
+    </section>
+
+    <!-- Section cards -->
+    <section class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <SectionCard
+        href="/ars-veritatis"
+        title="Ars Veritatis"
+        description="Essays on truth, science, and AI's role in society. How do we prioritize truth over control?"
+        count={arsVeritatisPosts.length}
+      />
+      <SectionCard
+        href="/work"
+        title="Work"
+        description="Professional work in AI for Science. Building tools to accelerate discovery."
+        count={workPosts.length}
+      />
+      <SectionCard
+        href="/blog"
+        title="Blog"
+        description="Miscellaneous thoughts, notes, and musings that don't fit elsewhere."
+        count={blogPosts.length}
+      />
+      <SectionCard
+        href="/poetry"
+        title="Poetry"
+        description="Verse and fragments. Attempts at capturing something ineffable."
+        count={poems.length}
+      />
+      <SectionCard
+        href="/projects"
+        title="Projects"
+        description="Personal coding experiments, open source contributions, and side quests."
+        count={projects.length}
+      />
+      <SectionCard
+        href="/rpg"
+        title="RPG"
+        description="Tabletop roleplaying adventures, campaign notes, and game design musings."
+        count={rpgPosts.length}
+      />
+    </section>
+  </div>
+</Base>
+
+<style>
+  :global(html:not(.dark)) h1 {
+    @apply text-midnight-900;
+  }
+  :global(html:not(.dark)) p {
+    @apply text-midnight-600;
+  }
+</style>

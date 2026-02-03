@@ -1,0 +1,77 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const posts = await getCollection('work');
+const sortedPosts = posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<Base
+  title="Work - Gully Burns"
+  description="Professional work in AI for Science - building tools to accelerate scientific discovery."
+>
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 py-16">
+    <header class="mb-12">
+      <h1 class="text-3xl sm:text-4xl font-bold text-midnight-50 mb-4">
+        Work
+      </h1>
+      <p class="text-midnight-300 text-lg">
+        Professional portfolio. AI for Science — building tools to help researchers accelerate discovery.
+      </p>
+    </header>
+
+    {sortedPosts.length === 0 ? (
+      <div class="text-center py-16">
+        <p class="text-midnight-400 text-lg">
+          Portfolio coming soon.
+        </p>
+      </div>
+    ) : (
+      <ul class="space-y-8">
+        {sortedPosts.map((post) => (
+          <li>
+            <a href={`/work/${post.slug}`} class="block group">
+              <article class="p-6 -mx-6 rounded-lg hover:bg-midnight-900/50 transition-colors">
+                <h2 class="text-xl font-semibold text-midnight-100 group-hover:text-truth-400 transition-colors">
+                  {post.data.title}
+                </h2>
+                {post.data.organization && (
+                  <span class="inline-block mt-1 text-sm text-midnight-400">
+                    {post.data.organization}
+                  </span>
+                )}
+                <p class="mt-2 text-midnight-300 line-clamp-2">
+                  {post.data.description}
+                </p>
+                {post.data.tags.length > 0 && (
+                  <div class="flex flex-wrap gap-2 mt-3">
+                    {post.data.tags.map((tag) => (
+                      <span class="px-2 py-0.5 text-xs rounded bg-midnight-800 text-midnight-400">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </article>
+            </a>
+          </li>
+        ))}
+      </ul>
+    )}
+  </div>
+</Base>
+
+<style>
+  :global(html:not(.dark)) h1 {
+    @apply text-midnight-900;
+  }
+  :global(html:not(.dark)) h2 {
+    @apply text-midnight-800;
+  }
+  :global(html:not(.dark)) p {
+    @apply text-midnight-600;
+  }
+  :global(html:not(.dark)) article:hover {
+    @apply bg-midnight-100/50;
+  }
+</style>

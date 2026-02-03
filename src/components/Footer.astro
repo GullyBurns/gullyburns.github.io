@@ -1,0 +1,37 @@
+---
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="border-t border-midnight-800/50 mt-auto">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 py-8">
+    <div class="flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-midnight-400">
+      <p>&copy; {currentYear} Gully Burns</p>
+      <div class="flex items-center gap-4">
+        <a
+          href="https://github.com/GullyBurns"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="hover:text-truth-400 transition-colors"
+        >
+          GitHub
+        </a>
+        <a
+          href="/ars-veritatis/rss.xml"
+          class="hover:text-truth-400 transition-colors"
+        >
+          RSS
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<style>
+  :global(html:not(.dark)) footer {
+    @apply border-midnight-200/50;
+  }
+  :global(html:not(.dark)) footer p,
+  :global(html:not(.dark)) footer a {
+    @apply text-midnight-500;
+  }
+</style>

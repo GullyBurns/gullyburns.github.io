@@ -1,0 +1,78 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const posts = await getCollection('rpg');
+const sortedPosts = posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<Base
+  title="RPG - Gully Burns"
+  description="Tabletop roleplaying adventures, campaign notes, and game design musings."
+>
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 py-16">
+    <header class="mb-12">
+      <h1 class="text-3xl sm:text-4xl font-bold text-midnight-50 mb-4">
+        RPG
+      </h1>
+      <p class="text-midnight-300 text-lg">
+        Tabletop adventures, campaign notes, homebrew rules, and musings on game design.
+      </p>
+    </header>
+
+    {sortedPosts.length === 0 ? (
+      <div class="text-center py-16">
+        <p class="text-midnight-400 text-lg">
+          No posts yet. Check back soon.
+        </p>
+      </div>
+    ) : (
+      <ul class="space-y-8">
+        {sortedPosts.map((post) => (
+          <li>
+            <a href={`/rpg/${post.slug}`} class="block group">
+              <article class="p-6 -mx-6 rounded-lg hover:bg-midnight-900/50 transition-colors">
+                <h2 class="text-xl font-semibold text-midnight-100 group-hover:text-truth-400 transition-colors">
+                  {post.data.title}
+                </h2>
+                {post.data.system && (
+                  <span class="inline-block mt-1 text-xs text-truth-400">
+                    {post.data.system}
+                  </span>
+                )}
+                <p class="mt-2 text-midnight-300 line-clamp-2">
+                  {post.data.description}
+                </p>
+                <time
+                  datetime={post.data.pubDate.toISOString()}
+                  class="block mt-3 text-sm text-midnight-500"
+                >
+                  {post.data.pubDate.toLocaleDateString('en-US', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric',
+                  })}
+                </time>
+              </article>
+            </a>
+          </li>
+        ))}
+      </ul>
+    )}
+  </div>
+</Base>
+
+<style>
+  :global(html:not(.dark)) h1 {
+    @apply text-midnight-900;
+  }
+  :global(html:not(.dark)) h2 {
+    @apply text-midnight-800;
+  }
+  :global(html:not(.dark)) p {
+    @apply text-midnight-600;
+  }
+  :global(html:not(.dark)) article:hover {
+    @apply bg-midnight-100/50;
+  }
+</style>

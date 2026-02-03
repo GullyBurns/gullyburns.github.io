@@ -1,0 +1,50 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+
+export async function getStaticPaths() {
+  const poems = await getCollection('poetry');
+  return poems.map((poem) => ({
+    params: { slug: poem.slug },
+    props: poem,
+  }));
+}
+
+const poem = Astro.props;
+const { Content } = await poem.render();
+
+const formattedDate = poem.data.pubDate.toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+---
+
+<Base title={`${poem.data.title} - Poetry`} description={poem.data.description || poem.data.title}>
+  <article class="max-w-2xl mx-auto px-4 sm:px-6 py-16">
+    <header class="mb-12 text-center">
+      <h1 class="text-3xl sm:text-4xl font-bold text-midnight-50 mb-4">
+        {poem.data.title}
+      </h1>
+      <time datetime={poem.data.pubDate.toISOString()} class="text-sm text-midnight-500">
+        {formattedDate}
+      </time>
+    </header>
+
+    <div class="prose prose-invert prose-lg max-w-none text-center
+      prose-p:text-midnight-200 prose-p:font-serif prose-p:leading-loose
+      prose-p:whitespace-pre-line
+    ">
+      <Content />
+    </div>
+  </article>
+</Base>
+
+<style>
+  :global(html:not(.dark)) article h1 {
+    @apply text-midnight-900;
+  }
+  :global(html:not(.dark)) .prose p {
+    @apply text-midnight-700;
+  }
+</style>
