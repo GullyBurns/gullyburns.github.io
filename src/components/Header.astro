@@ -1,0 +1,62 @@
+---
+import ThemeToggle from './ThemeToggle.astro';
+
+const navLinks = [
+  { href: '/ars-veritatis', label: 'Ars Veritatis' },
+  { href: '/blog', label: 'Blog' },
+  { href: '/poetry', label: 'Poetry' },
+  { href: '/projects', label: 'Projects' },
+  { href: '/rpg', label: 'RPG' },
+  { href: '/work', label: 'Work' },
+  { href: '/about', label: 'About' },
+];
+
+const currentPath = Astro.url.pathname;
+---
+
+<header class="sticky top-0 z-50 backdrop-blur-md bg-midnight-950/80 dark:bg-midnight-950/80 border-b border-midnight-800/50">
+  <nav class="max-w-4xl mx-auto px-4 sm:px-6 py-4">
+    <div class="flex items-center justify-between">
+      <!-- Logo / Home link -->
+      <a
+        href="/"
+        class="text-lg font-semibold text-midnight-100 hover:text-truth-400 transition-colors"
+      >
+        gully
+      </a>
+
+      <!-- Navigation links -->
+      <div class="flex items-center gap-1 sm:gap-2">
+        {navLinks.map(({ href, label }) => (
+          <a
+            href={href}
+            class:list={[
+              'px-3 py-1.5 rounded-md text-sm font-medium transition-colors',
+              currentPath.startsWith(href)
+                ? 'text-truth-400 bg-midnight-800/50'
+                : 'text-midnight-300 hover:text-truth-400 hover:bg-midnight-800/30',
+            ]}
+          >
+            {label}
+          </a>
+        ))}
+        <div class="ml-2 border-l border-midnight-700 pl-2">
+          <ThemeToggle />
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<style>
+  /* Light mode overrides */
+  :global(html:not(.dark)) header {
+    @apply bg-midnight-50/80 border-midnight-200/50;
+  }
+  :global(html:not(.dark)) a {
+    @apply text-midnight-700;
+  }
+  :global(html:not(.dark)) a:hover {
+    @apply text-truth-600;
+  }
+</style>

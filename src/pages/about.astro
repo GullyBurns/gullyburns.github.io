@@ -1,0 +1,65 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base title="About - Gully Burns" description="About Gully Burns - physicist turned neuroscientist turned knowledge engineer.">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 py-16">
+    <h1 class="text-3xl sm:text-4xl font-bold text-midnight-50 mb-8">
+      About
+    </h1>
+
+    <div class="space-y-6 text-midnight-200 leading-relaxed">
+      <p>
+        I'm Gully — named after a character in a 1950s pulp sci-fi novel,
+        <a href="https://en.wikipedia.org/wiki/The_Stars_My_Destination" class="link" target="_blank" rel="noopener"><em>The Stars My Destination</em></a>.
+      </p>
+
+      <p>
+        I studied physics at Imperial College London, drawn to the mathematical precision
+        of physical models. The certainty was comforting — conservation laws, fundamental
+        constants, solid ground.
+      </p>
+
+      <p>
+        Then I pivoted to neuroscience, and never felt that secure about my knowledge again.
+        The brain is messy, complex, heterogeneous. I found the best way to make sense of it
+        was to build databases and tools — to model not neurons, but the concepts my colleagues
+        used to describe them.
+      </p>
+
+      <p>
+        This led me to USC's Information Sciences Institute, where I collaborated with experts
+        in NLP, knowledge representation, and semantic web technologies. My role was to
+        translate between domains — to find the common structure underlying scientific knowledge.
+      </p>
+
+      <p>
+        Now I work at the intersection of AI and science, building tools to help researchers
+        accelerate their work. It's the fulfillment of a career spent asking: how do we
+        transform information into understanding?
+      </p>
+
+      <p>
+        Beyond work, I write about truth and epistemology at
+        <a href="/ars-veritatis" class="link">Ars Veritatis</a>.
+        I play tabletop RPGs. I believe the world can't wait for us to solve the problems we face.
+      </p>
+
+      <p class="text-midnight-400 text-sm mt-12">
+        My universe is joyfully filled with being a proud husband and father.
+      </p>
+    </div>
+  </div>
+</Base>
+
+<style>
+  :global(html:not(.dark)) h1 {
+    @apply text-midnight-900;
+  }
+  :global(html:not(.dark)) p {
+    @apply text-midnight-700;
+  }
+  :global(html:not(.dark)) .text-midnight-400 {
+    @apply text-midnight-500;
+  }
+</style>

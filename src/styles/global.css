@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-midnight-950 text-midnight-100 font-sans antialiased;
+    @apply transition-colors duration-300;
+  }
+
+  /* Light mode overrides */
+  html:not(.dark) body {
+    @apply bg-midnight-50 text-midnight-900;
+  }
+
+  /* Dark mode is set via class on html element by ThemeToggle */
+}
+
+@layer components {
+  .prose-custom {
+    @apply text-midnight-200 leading-relaxed;
+  }
+
+  html:not(.dark) .prose-custom {
+    @apply text-midnight-800;
+  }
+
+  .link {
+    @apply text-truth-400 hover:text-truth-300 underline underline-offset-2;
+    @apply transition-colors duration-200;
+  }
+
+  html:not(.dark) .link {
+    @apply text-truth-600 hover:text-truth-700;
+  }
+
+  .section-card {
+    @apply p-6 rounded-lg border border-midnight-800 bg-midnight-900/50;
+    @apply hover:border-truth-500/50 hover:bg-midnight-900;
+    @apply transition-all duration-300;
+  }
+
+  html:not(.dark) .section-card {
+    @apply border-midnight-200 bg-white/50;
+    @apply hover:border-truth-500/50 hover:bg-white;
+  }
+}

@@ -1,0 +1,41 @@
+---
+interface Props {
+  href: string;
+  title: string;
+  description: string;
+  count?: number;
+}
+
+const { href, title, description, count } = Astro.props;
+---
+
+<a href={href} class="section-card block group">
+  <div class="flex items-start justify-between">
+    <h2 class="text-xl font-semibold text-midnight-100 group-hover:text-truth-400 transition-colors">
+      {title}
+    </h2>
+    {count !== undefined && (
+      <span class="text-sm text-midnight-500 tabular-nums">
+        {count} {count === 1 ? 'post' : 'posts'}
+      </span>
+    )}
+  </div>
+  <p class="mt-2 text-midnight-300 text-sm leading-relaxed">
+    {description}
+  </p>
+  <span class="mt-4 inline-flex items-center text-sm text-truth-400 group-hover:text-truth-300 transition-colors">
+    Explore
+    <svg class="ml-1 w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+    </svg>
+  </span>
+</a>
+
+<style>
+  :global(html:not(.dark)) .section-card h2 {
+    @apply text-midnight-900;
+  }
+  :global(html:not(.dark)) .section-card p {
+    @apply text-midnight-600;
+  }
+</style>
