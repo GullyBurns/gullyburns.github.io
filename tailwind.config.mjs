@@ -44,14 +44,14 @@ export default {
         DEFAULT: {
           css: {
             maxWidth: '72ch',
-            '--tw-prose-body': theme('colors.midnight.900'),
+            '--tw-prose-body': theme('colors.midnight.950'),
             '--tw-prose-headings': theme('colors.midnight.950'),
             '--tw-prose-links': theme('colors.truth.700'),
             '--tw-prose-bold': theme('colors.midnight.950'),
             '--tw-prose-code': theme('colors.truth.800'),
-            '--tw-prose-quotes': theme('colors.midnight.700'),
-            '--tw-prose-counters': theme('colors.midnight.600'),
-            '--tw-prose-bullets': theme('colors.midnight.500'),
+            '--tw-prose-quotes': theme('colors.midnight.950'),
+            '--tw-prose-counters': theme('colors.midnight.950'),
+            '--tw-prose-bullets': theme('colors.midnight.950'),
           },
         },
         invert: {
