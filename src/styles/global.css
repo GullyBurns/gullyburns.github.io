@@ -26,7 +26,7 @@
   }
 
   html:not(.dark) .prose-custom {
-    @apply text-midnight-800;
+    @apply text-midnight-950;
   }
 
   .link {

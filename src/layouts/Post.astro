@@ -68,20 +68,37 @@ const formattedUpdatedDate = updatedDate?.toLocaleDateString('en-US', {
 
 <style>
   :global(html:not(.dark)) article h1 {
-    @apply text-midnight-900;
+    @apply text-midnight-950;
   }
   :global(html:not(.dark)) article time,
   :global(html:not(.dark)) article .text-midnight-400 {
-    @apply text-midnight-500;
+    @apply text-midnight-600;
+  }
+  :global(html:not(.dark)) article .bg-midnight-800 {
+    @apply bg-midnight-200 text-midnight-700;
   }
   :global(html:not(.dark)) .prose {
     @apply prose-gray;
   }
   :global(html:not(.dark)) .prose p,
   :global(html:not(.dark)) .prose li {
+    @apply text-midnight-800;
+  }
+  :global(html:not(.dark)) .prose h2,
+  :global(html:not(.dark)) .prose h3,
+  :global(html:not(.dark)) .prose h4 {
+    @apply text-midnight-900;
+  }
+  :global(html:not(.dark)) .prose strong {
+    @apply text-midnight-900;
+  }
+  :global(html:not(.dark)) .prose blockquote {
     @apply text-midnight-700;
   }
   :global(html:not(.dark)) .prose a {
-    @apply text-truth-600;
+    @apply text-truth-700;
+  }
+  :global(html:not(.dark)) .prose code {
+    @apply bg-midnight-100 text-truth-800;
   }
 </style>
