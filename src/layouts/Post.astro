@@ -53,6 +53,8 @@ const formattedUpdatedDate = updatedDate?.toLocaleDateString('en-US', {
 
     <div class="prose prose-invert prose-lg max-w-none
       prose-headings:text-midnight-100
+      prose-h1:text-xl prose-h1:sm:text-2xl
+      prose-h2:text-lg prose-h2:sm:text-xl
       prose-p:text-midnight-200
       prose-a:text-truth-400 prose-a:no-underline hover:prose-a:underline
       prose-strong:text-midnight-100
@@ -79,6 +81,7 @@ const formattedUpdatedDate = updatedDate?.toLocaleDateString('en-US', {
   }
   :global(html:not(.dark)) .prose p,
   :global(html:not(.dark)) .prose li,
+  :global(html:not(.dark)) .prose h1,
   :global(html:not(.dark)) .prose h2,
   :global(html:not(.dark)) .prose h3,
   :global(html:not(.dark)) .prose h4,
