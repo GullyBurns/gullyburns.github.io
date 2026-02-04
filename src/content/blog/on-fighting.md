@@ -1,6 +1,6 @@
 ---
 title: "On Fighting"
-description: ""
+description: "Lessons from fencing and martial arts on what real fighting requires—discipline, tactics, and intelligence over bluster and aggression."
 pubDate: 2015-12-07
 tags: ["Combat", "Humanity", "Tactics", "Terrorism"]
 draft: false

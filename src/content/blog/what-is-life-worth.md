@@ -1,6 +1,6 @@
 ---
 title: "What is a life worth?"
-description: ""
+description: "Contemplating how we measure the value of a life beyond dollars, inspired by Margin Call and the work we leave behind."
 pubDate: 2012-02-04
 tags: ["consequence", "happiness", "life", "money", "suffering", "worth"]
 draft: false

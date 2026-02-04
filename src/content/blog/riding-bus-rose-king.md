@@ -1,6 +1,6 @@
 ---
 title: "Riding the bus with the Rose King"
-description: ""
+description: "A chance encounter at a bus stop with a stranger bearing roses sparks a moment of unexpected poetry."
 pubDate: 2012-02-18
 tags: ["bus", "chance meeting", "roses"]
 draft: false

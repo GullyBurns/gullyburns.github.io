@@ -1,6 +1,6 @@
 ---
 title: "An Athletic Rebirth"
-description: ""
+description: "How discovering CrossFit after a serious knee injury transformed my relationship with fitness and what it means to be an athlete."
 pubDate: 2013-09-06
 tags: ["crossfit", "fitness", "injury", "rebirth"]
 draft: false

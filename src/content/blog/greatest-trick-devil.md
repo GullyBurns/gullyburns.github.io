@@ -1,6 +1,6 @@
 ---
 title: "The Greatest Trick The Devil Ever Pulled"
-description: ""
+description: "Using the Devil as a metaphor to understand how evil operates through deception, propaganda, and playing on our worst impulses."
 pubDate: 2015-12-21
 tags: ["Evil", "Gun Violence", "The Devil"]
 draft: false

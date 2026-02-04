@@ -1,6 +1,6 @@
 ---
 title: "Trying (and Failing) to Talk - Lessons Learned"
-description: ""
+description: "Attempting to bridge a decade of silence with a Trump-supporting friend, and what I learned from the effort."
 pubDate: 2025-10-28
 tags: ["AntiTrump", "Humanity", "Political Discourse"]
 draft: false

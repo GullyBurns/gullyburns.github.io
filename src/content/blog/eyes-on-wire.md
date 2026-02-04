@@ -1,18 +1,17 @@
 ---
 title: "The eyes on the wire"
-description: ""
+description: "Two strangers stop to rescue a crow trapped on a wire fence, sharing a moment of spontaneous cooperation and connection."
 pubDate: 2012-06-21
 tags: ["altruism", "Crow", "intelligence", "partnership", "rescue", "strangers"]
 draft: false
 ---
 
-> Oh like a bird on the wire,<BR>
+> "Oh like a bird on the wire,<BR>
 > Like a drunk in a midnight choir <BR>
-> I have tried in my way to be free.
+> I have tried in my way to be free."
 >
-> **'Bird on the wire'** <BR
->
-> **Leonard Cohen**
+> 'Bird on the wire' <BR>
+> Leonard Cohen
 
 I was driving from work in the early evening, waiting at a red light in the grim no-mans-land of the space beneath a freeway in Los Angeles and just glimpsed a view of a pathetic, saddening sight. A struggling, misshapen, bundle of feathers, flapped uselessly as it dangled trying to escape from a wirelink fence. I sat, a little horrified, not sure what I was seeing and the light turned green and I drove off.  
 

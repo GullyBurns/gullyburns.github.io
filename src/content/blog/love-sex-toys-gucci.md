@@ -1,6 +1,6 @@
 ---
 title: "Love, Sex toys and Gucci couture"
-description: ""
+description: "How objectification poisons dating culture, turning people into accessories rather than seeing them as human beings."
 pubDate: 2012-05-20
 tags: ["dating", "love", "objectification"]
 draft: false

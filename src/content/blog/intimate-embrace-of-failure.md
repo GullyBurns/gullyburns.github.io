@@ -1,6 +1,6 @@
 ---
 title: "The intimate embrace of failure"
-description: ""
+description: "Learning to embrace failure as a necessary part of growth, from double-unders at CrossFit to securing research funding."
 pubDate: 2014-06-13
 tags: ["crossfit", "double-unders", "failure", "Paradiso Crossfit.", "success"]
 draft: false

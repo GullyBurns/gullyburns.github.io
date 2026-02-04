@@ -1,6 +1,6 @@
 ---
 title: "Walled Gardens"
-description: ""
+description: "A painful experience at a yoga studio reveals how the pursuit of serenity can become its own form of cruelty."
 pubDate: 2012-06-09
 tags: ["dvesha", "fear", "perfection", "yoga"]
 draft: false

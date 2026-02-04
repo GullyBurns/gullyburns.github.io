@@ -1,6 +1,6 @@
 ---
 title: "A Surreal Encounter Over Real Food"
-description: ""
+description: "A jarring dinner scene where a homeless man's quiet dignity contrasts with a couple's oblivious chatter about spirituality."
 pubDate: 2010-07-24
 tags: ["compassion", "honesty", "spirituality"]
 draft: false

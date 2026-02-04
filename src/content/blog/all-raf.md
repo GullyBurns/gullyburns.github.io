@@ -1,12 +1,12 @@
 ---
 title: "All R.A.F."
-description: ""
+description: "A tribute to my grandfather, a Battle of Britain Hurricane pilot whose quiet grace and RAF dignity shaped our family."
 pubDate: 2011-02-02
 tags: ["family", "granddad", "heroism"]
 draft: false
 ---
 
-[](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirzkUJmsPF29-4FVxZsme0farTF6tRpiw9bzhVlCPtgjxObhVNtZkI5iRu5pVtUw7yIaXeVFnpHfzGxPVOSNzQUpoVePw-HnP9NRa8P4Vz28L1fP3aXafe_pzt-J9VSN-AJHG2zgWMUUOk/s1600/shapeimage_2+%25282%2529.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirzkUJmsPF29-4FVxZsme0farTF6tRpiw9bzhVlCPtgjxObhVNtZkI5iRu5pVtUw7yIaXeVFnpHfzGxPVOSNzQUpoVePw-HnP9NRa8P4Vz28L1fP3aXafe_pzt-J9VSN-AJHG2zgWMUUOk/s1600/shapeimage_2+%25282%2529.jpg)
 
 In pictures snapped at my cousin's wedding, my Grandad stands between me and my uncle; clear and steady, clipped and clean. All RAF.
 

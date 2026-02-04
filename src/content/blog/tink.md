@@ -1,6 +1,6 @@
 ---
 title: "'Tink'"
-description: ""
+description: "A story of unrequited love for a stage combat actress, and the moment of self-compassion that finally set me free."
 pubDate: 2011-04-02
 tags: ["love", "realization"]
 draft: false

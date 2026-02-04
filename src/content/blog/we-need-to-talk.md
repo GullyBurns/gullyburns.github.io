@@ -1,6 +1,6 @@
 ---
 title: "We Need to Talk"
-description: ""
+description: "Reflections on Ezra Klein's call for political dialogue across the divide in the aftermath of Charlie Kirk's assassination."
 pubDate: 2025-09-21
 tags: ["argum", "Charlie Kirk", "Ezra Klein", "Politics"]
 draft: false

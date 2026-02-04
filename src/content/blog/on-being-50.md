@@ -1,6 +1,6 @@
 ---
 title: "On Being 50, Almost Dying, and What It Means To Live"
-description: ""
+description: "Reflections on my 50th birthday, a near-death experience in Paris, and what truly matters when measuring a life."
 pubDate: 2020-04-17
 tags: ["50th Birthday. Being of service.", "Making a difference", "mortality"]
 draft: false

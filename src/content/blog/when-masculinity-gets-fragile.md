@@ -1,6 +1,6 @@
 ---
 title: "When Masculinity Gets Fragile: A Real-Time Case Study"
-description: ""
+description: "Documenting a Twitter exchange that demonstrates textbook fragile masculinity, with an experiment in AI-assisted argumentation."
 pubDate: 2025-09-27
 tags: ["Argument", "automated rebuttal", "toxicity"]
 draft: false

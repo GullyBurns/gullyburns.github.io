@@ -1,6 +1,6 @@
 ---
 title: "American Evil - Part Two"
-description: ""
+description: "Eight years later, reflecting on how endemic bullshit and propaganda enabled Trump's return to power."
 pubDate: 2025-03-16
 tags: []
 draft: false

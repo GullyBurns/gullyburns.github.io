@@ -1,6 +1,6 @@
 ---
 title: "The Barbarism of Fear"
-description: ""
+description: "Exploring the psychology of weapons, the intention to kill, and heroism in the aftermath of mass shootings."
 pubDate: 2013-01-08
 tags: ["barbarism", "courage", "fear", "guns", "heroism", "killing", "violence"]
 draft: false

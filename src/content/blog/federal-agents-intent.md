@@ -1,6 +1,6 @@
 ---
 title: "Federal Agents' Intent and Willingness to Kill"
-description: ""
+description: "Questioning why lethal force remains the default response for American law enforcement in situations that shouldn't require it."
 pubDate: 2026-01-12
 tags: ["Gun Violence", "guns", "ICE", "police brutality"]
 draft: false

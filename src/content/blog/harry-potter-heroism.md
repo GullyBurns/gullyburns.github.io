@@ -1,6 +1,6 @@
 ---
 title: "The Harry Potter School of Heroism"
-description: ""
+description: "Why Harry Potter offers a better model of heroism than Batman—confronting evil with decency rather than becoming the monster you fight."
 pubDate: 2013-01-20
 tags: ["Batman", "guns", "Harry Potter", "heroism", "violence"]
 draft: false

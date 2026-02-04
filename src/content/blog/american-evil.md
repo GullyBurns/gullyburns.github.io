@@ -1,6 +1,6 @@
 ---
 title: "American Evil"
-description: ""
+description: "An examination of the profound moral failure underlying Trump's 2016 election and the various rationalizations that enabled it."
 pubDate: 2017-01-28
 tags: ["2016 Election", "Donald Trump", "Evil", "Politics"]
 draft: false
