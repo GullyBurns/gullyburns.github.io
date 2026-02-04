@@ -1,5 +1,6 @@
 ---
 title: "The Faces of My Colleagues"
+description: "Seeing heroes in the faces of colleagues during a COVID-era Zoom call."
 pubDate: 2020-04-03
 tags: ["Colleagues", "COVID-19", "heroism", "poetry", "Teleconference"]
 ---

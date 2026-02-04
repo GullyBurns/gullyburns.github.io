@@ -1,5 +1,6 @@
 ---
 title: "Anti-MAGA Protest Music"
+description: "A collection of AI-generated protest songs responding to the current political moment."
 pubDate: 2026-02-04
 tags: ["Protest Music", "Anti-MAGA", "Freedom"]
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Don't Be a Troll, Be a Wizard!"
-description: ""
+description: "A strategic vision for using scientific knowledge engineering and AI to counter misinformation and support data-driven policy."
 pubDate: 2017-05-19
 tags: ["climate", "misinformation", "science", "trolls"]
 draft: false

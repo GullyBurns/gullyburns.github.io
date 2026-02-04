@@ -1,6 +1,6 @@
 ---
 title: "Through a Glass, Darkly"
-description: ""
+description: "A critique of X (Twitter) as a dark mirror that monetizes outrage and serves disinformation rather than truth."
 pubDate: 2025-12-22
 tags: ["Political Discourse", "social media", "The Devil", "X.com"]
 draft: false

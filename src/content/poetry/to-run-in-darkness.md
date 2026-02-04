@@ -1,5 +1,6 @@
 ---
 title: "To run in darkness is to touch the night"
+description: "A nighttime run connects to something primal, ancient, and urgent."
 pubDate: 2013-11-01
 tags: ["crossfit", "darkness", "poetry", "running"]
 ---

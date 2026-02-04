@@ -1,5 +1,6 @@
 ---
 title: "I am a point mass"
+description: "The dehumanizing experience of being shuffled through airport security and air travel."
 pubDate: 2012-06-02
 tags: ["flying", "poetry", "thanksgiving", "travel"]
 ---

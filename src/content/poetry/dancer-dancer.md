@@ -1,5 +1,6 @@
 ---
 title: "Dancer Dancer"
+description: "Celebrating a dancer whose movement speaks an ancient language more eloquent than words."
 pubDate: 2012-02-15
 tags: ["beauty", "dance", "poetry"]
 ---

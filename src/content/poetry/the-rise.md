@@ -1,5 +1,6 @@
 ---
 title: "The Rise"
+description: "Rising phoenix-like from ashes through effort, trust, and the simple act of trying again."
 pubDate: 2014-01-26
 tags: ["crossfit", "poetry", "rebirth", "resilience", "weightlifting"]
 ---

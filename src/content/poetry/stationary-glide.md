@@ -1,5 +1,6 @@
 ---
 title: "Stationary Glide"
+description: "Comparing the joy of achieving a yoga arm balance to birds gliding on the wind."
 pubDate: 2012-07-27
 tags: ["air", "arm balancing", "flight", "inspired by Kathryn Budig", "seagulls", "yoga"]
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Every final goodbye is a killing"
+description: "The bitter aftermath of a breakup, when soft words feel hollow and anger runs deep."
 pubDate: 2012-02-15
 tags: ["angry", "bitter", "breakup", "poetry"]
 ---

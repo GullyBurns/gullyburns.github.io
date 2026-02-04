@@ -1,6 +1,6 @@
 ---
 title: The KQED Model of Scientific Discovery      
-description:  ""
+description: "A cyclic framework for understanding scientific discovery and how AI agents can accelerate each step of the research process."
 pubDate: 2026-02-03
 tags: ["science", "cyclic-model", "discovery", "process"]
 draft: false

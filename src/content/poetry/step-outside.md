@@ -1,5 +1,6 @@
 ---
 title: "Step Outside"
+description: "An invitation to escape the branded, commercial world and drink deeply from creativity."
 pubDate: 2012-02-16
 tags: ["commercialism", "creativity", "poetry"]
 ---

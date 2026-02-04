@@ -1,5 +1,6 @@
 ---
 title: "I see you"
+description: "Breaking through the lonely conviction that no one sees or loves you, through small acts of friendship."
 pubDate: 2013-03-02
 tags: ["friends", "love", "poetry"]
 ---

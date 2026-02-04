@@ -1,5 +1,6 @@
 ---
 title: "Kingfisher's Wings"
+description: "A love poem comparing the glittering beauty of someone's eyes to kingfishers in flight."
 pubDate: 2012-02-15
 tags: ["beauty", "elegance", "light", "poetry"]
 ---

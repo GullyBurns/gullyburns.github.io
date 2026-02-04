@@ -1,6 +1,6 @@
 ---
 title: "Moment of Truth"
-description: ""
+description: "We stand at a crossroads where AI can either entrench authoritarianism or empower truth through better argumentation systems."
 pubDate: 2025-09-08
 tags: ["AI truth argument reasoning authoritarianism"]
 draft: false

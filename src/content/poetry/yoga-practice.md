@@ -1,5 +1,6 @@
 ---
 title: "Yoga Practice"
+description: "The interplay of breath, muscle, and bone in the moving stillness of yoga."
 pubDate: 2012-02-15
 tags: ["physicality", "poetry", "yoga"]
 ---

@@ -1,6 +1,6 @@
 ---
 title: "The 'Fundamental Virtues'"
-description: ""
+description: "An airplane conversation with a conservative stranger leads to reflections on compassion, integrity, and understanding as inviolable virtues."
 pubDate: 2012-05-02
 tags: ["Airplane Conversations", "compassion", "honesty", "Politics", "Understanding", "Virtue"]
 draft: false

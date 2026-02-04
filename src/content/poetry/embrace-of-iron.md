@@ -1,5 +1,6 @@
 ---
 title: "The Embrace of Iron"
+description: "Finding peace, safety, and honest judgment in the simplicity of weightlifting."
 pubDate: 2012-04-25
 tags: ["escape", "exercise", "poetry", "redemption", "weights"]
 ---

@@ -1,5 +1,6 @@
 ---
 title: "L.A. Observatory"
+description: "First impressions of Los Angeles at night from Griffith Observatory, where city lights upstage the stars."
 pubDate: 2012-02-15
 tags: ["arrivals", "Los Angeles", "poetry"]
 ---

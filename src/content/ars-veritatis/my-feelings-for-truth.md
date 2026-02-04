@@ -1,6 +1,6 @@
 ---
 title: "My Feelings for Truth"
-description: ""
+description: "Personal reflections on the sacred nature of truth, the corrosive power of bullshit, and the difference between objective and subjective reality."
 pubDate: 2011-12-10
 tags: ["bullshit", "objectivity", "subjectivity", "truth"]
 draft: false

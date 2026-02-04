@@ -1,5 +1,6 @@
 ---
 title: "And Let Me Be"
+description: "A personal manifesto poem about truth, love, and becoming the person I want to be."
 pubDate: 2012-01-21
 tags: ["being", "poetry"]
 ---

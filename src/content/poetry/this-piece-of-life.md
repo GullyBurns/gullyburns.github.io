@@ -1,5 +1,6 @@
 ---
 title: "This piece of life"
+description: "Wrestling with self-doubt and finding reassurance in the voices of caring friends."
 pubDate: 2014-03-25
 tags: ["fear", "friends", "love", "poetry", "self-doubt"]
 ---

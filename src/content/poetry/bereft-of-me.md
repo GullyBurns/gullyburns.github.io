@@ -1,5 +1,6 @@
 ---
 title: "Bereft of me"
+description: "A meditation on mourning and the irreplaceable void left by the loss of a life."
 pubDate: 2017-06-22
 tags: ["death", "mourning", "poetry"]
 ---

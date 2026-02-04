@@ -1,5 +1,6 @@
 ---
 title: "West Coast Vibe"
+description: "Standing on a grey December beach in Santa Monica, comparing LA's playful drizzle to English cold."
 pubDate: 2012-12-02
 tags: []
 ---

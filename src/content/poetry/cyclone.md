@@ -1,5 +1,6 @@
 ---
 title: "Cyclone"
+description: "Discovering that the chaos I blamed on the world was the cyclone within myself."
 pubDate: 2012-02-15
 tags: ["equanimity", "love", "poetry"]
 ---

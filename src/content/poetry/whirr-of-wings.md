@@ -1,5 +1,6 @@
 ---
 title: "Whirr of wings"
+description: "A tribute to a friend's hummingbird-like energy, questioning whether such creatures should ever slow down."
 pubDate: 2013-02-12
 tags: ["energy", "hummingbird", "speed", "Zori"]
 ---
