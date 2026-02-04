@@ -41,9 +41,9 @@ At some level, I feel some level of catharsis through these interactions. Politi
 
 I need to tread carefully with my own inner demons here. I like to argue. I especially like to argue with people who I know I'm never going to convince. I feel these tendencies pulling me deeper into participating more, but I know it's not good for me. My wife actively hates me being on X - she says I’m distracted and ‘always on my phone. She's been a good sport about it, but she has a point - trying to engage here is exhausting and time consuming.
 
-One observation of interest is the presence of a large amount of Christian Nationalist material (in-keeping with the presence of this perspective throughout US conservative political voices. These posts scream 'click on me' - either from heathen dissenters like myself or true believers who feel the spirit move them to shout a text-based 'Amen!'
+One observation of interest is the presence of a large amount of Christian Nationalist material (in-keeping with the presence of this perspective throughout US conservative political voices). These posts scream 'click on me' - either from heathen dissenters like myself or true believers who feel the spirit move them to shout a text-based 'Amen!'
 
-Consider the Bible verse that says: "For now we see through a glass, darkly; but then face to face: now I know in part; but then shall I know even as also I am known." This whole passage speaks to the importance of charity or love and that our knowledge of the divine is imperfect, as through we are looking through a dark glass. 
+Consider the Bible verse that says: "For now we see through a glass, darkly; but then face to face: now I know in part; but then shall I know even as also I am known." This whole passage speaks to the importance of charity or love and that our knowledge of the divine is imperfect, as though we are looking through a dark glass. 
 
 The dark glass we see through here is the endless scrolling feed of bullshit that unceasingly attempts to pull you in and trap you in its folds. Few of these interactions are 'face to face'. Even fewer of them involve anyone being known, or even knowing anything. The thing on the other side of this glass is not love, charity, or God, but something else entirely. 
 
@@ -51,7 +51,9 @@ If the Devil was real, he'd likely really love X. I can imagine an episode of th
 
 In so many ways, X is the antithesis of an authentic place of worship, self-exploration, or spiritual awakening. It creates a marketplace that accelerates and monetizes quick angry responses - with no guardrails for accuracy, consideration, or decency. X has been shown to rarely enforce any of its own community standards regarding online behavior and, as evidenced by my minor skirmishes with its agents, pretty much 'anything goes' in there.
 
-Resist engaging with X as a real-life "black mirror". 
+So, here's some unasked-for advice: 
+
+As much as you can, Resist engaging with X. It is a real-life "black mirror". 
 
 Resist the voices you hear coming from it. 
 
