@@ -77,4 +77,9 @@ const formattedUpdatedDate = updatedDate?.toLocaleDateString('en-US', {
   :global(html:not(.dark)) article .bg-midnight-800 {
     @apply bg-midnight-200 text-midnight-950;
   }
+  /* Remove quotation marks from blockquotes */
+  :global(.prose blockquote p::before),
+  :global(.prose blockquote p::after) {
+    content: none !important;
+  }
 </style>
