@@ -13,7 +13,7 @@ Just before Charlie Kirk's assassination, Ezra Klein talked to Ben Shapiro about
 
 *(note, I will not attempt to discuss the book itself, merely his conversation about the book with Ezra Klein). *
 
-## The core of Shapiro's argument is a truism that he strives to weaponize. 
+# The core of Shapiro's argument is a truism that he strives to weaponize. 
 
 First off, it is a truism to say that personal responsibility matters. Shapiro frequently points in the discussion that his distinction between 'Lions' and 'Scavengers' does not necessarily follow Right- or  Left-wing politics and reading his interpretation generously, his distinction could be considered as scavengers are those who 'complain unproductively' and as lions are those who 'find solutions'. 
 
@@ -25,7 +25,7 @@ Shapiro condemns anyone raising their voice about attempting to address the unfa
 
 This is the core problem with the framework: it treats any structural critique as evidence of "scavenger mentality." But saying "our tax code advantages wealth over labor" or "our housing policy has inflated asset values for owners while pricing out buyers" isn't scavenging—it's describing policy choices that could be different based on different strategic choices.
 
-## **Demonizing language and mischaracterizing empathy**
+# Demonizing language and mischaracterizing empathy
 
 Furthermore, it's notable that Shapiro's language around is dehumanizing and reductive — he gleefully uses terms like 'looters', 'lechers', and 'barbarians', and attributes the motivations of such people in the worst possible terms. When campus protesters stand up for Palestinians, or when Bernie Sanders fights for universal healthcare, or when Ferguson residents protest police conduct, Shapiro sees only 'scavengers' driven by envy. He makes no effort to understand how these people see themselves - as defending the vulnerable, fighting injustice, protecting their communities.
 
@@ -35,7 +35,7 @@ Klein's most devastating point: Shapiro claims Western civilization is built on 
 
 By treating any structural critique as 'scavenger mentality,' Shapiro isn't defending Western civilization's values - he's betraying them.
 
-## A lack of consistency around Trump
+# A lack of consistency around Trump
 
 Shapiro's framework has another serious issue: by his own admission, Donald Trump engages in exactly the kind of grievance politics he criticizes. Trump's entire pitch to voters has been "you got screwed"—by trade deals, by immigrants, by elites who look down on you. His economic policies, particularly on tariffs, are explicitly premised on the idea that the system is rigged against American workers. 
 
@@ -45,7 +45,7 @@ Yet Shapiro voted for Trump twice and campaigned for him. His explanation? Trump
 
 Furthermore, it reveals severe inconsistencies when scrutinized critically. He claims that there is a stronger focus on 'meritocracy' rather than DEI, but the determining factor for success in Trump's adminstration is only blind loyalty to Trump - under any and all circumstances. This is born out by consideration of the composition of Trump's cabinet and his stated policy throughout his administration (See Appendix C).  
 
-## Right wing grievances 
+# Right wing grievances 
 
 Shapiro's discussion of history is perhaps the most interesting aspect of the discussion (especially when considered in conjunction with his commentary of events whilst they are happening). When Shapiro discusses the Obama years,  he cites several moments that right wingers felt Obama was "divisive":
 
@@ -65,7 +65,7 @@ Now contrast this with how Shapiro treats conservative grievances:
 
 There is a pattern here: When conservatives feel aggrieved, Shapiro validates the feeling, echoing the irritation at the commentary and how it reflects justifiable commentary. When Black Americans or progressives express grievance based on actual harm or injustice (being killed or arrested), he demands they first prove perfect factual accuracy in every detail, and even then questions their motivations.
 
-## Ben Shapiro's selective narrative around the Ferguson and Jan 6th Riots
+# Ben Shapiro's selective narrative around the Ferguson and Jan 6th Riots
 
 Shapiro characterized the Ferguson protests as driven by delusional anger and described protesters as utopian visionaries with violent thugs as their minions [[Ferguson's Days of Rage](https://www.frontpagemag.com/ferguson-days-rage-ben-shapiro/)]. His language was exceptionally harsh. He called it a situation driven by a media-manufactured story about a racial killing, and compared Ferguson protesters to radical Muslims rioting over cartoons of Mohammed. He wrote that protesters in Ferguson need an external enemy to justify their own failure to make good in the freest country in the history of humanity - consistent with his current thesis of 'scavengers'. He described the protesters as having delusional anger and stated that facts become secondary to emotion when dealing with these Ragers. [He accused the Ferguson community of lying](https://creators.com/read/ben-shapiro/12/14/the-real-racist-conspiracy-in-ferguson), facilitating lying, or intimidating witnesses in order to put an innocent man behind bars because he happened to be white. 
 
@@ -85,7 +85,7 @@ There are key differences that reveal an underlying bias:
 
 The presence of a double standard seems evident: racially-motivated protests are characterized as driven by delusion and failure, while a violent attempt to disrupt the certification of a democratic election is minimized as "gawking" and an "exception" to Republican behavior.
 
-## **Shapiro's historical argument - What's Missing **
+# Shapiro's historical argument - What's Missing
 
 Shapiro talks about the foundation of Western Civilization being Judeo-Christian Morals and Greek Rationality, but crucial innovation that actually enabled Western technological and economic dominance: the development of systematic empiricism and the scientific method during the Renaissance and Enlightenment.
 
@@ -103,7 +103,7 @@ If you claim to value Western civilization's achievements, you should value the 
 
 Shapiro talks about Western civilization while ignoring the empirical method that actually made it successful. He wants the fruits of Enlightenment rationalism without its commitment to evidence-based reasoning.
 
-## **Moving Forward**
+# Moving Forward
 
 If we are to attempt to find common ground, Shapiro is right to move beyond endless grievance without solutions. But the way he weighs into the discussion, primarily driving bias and double standards does more harm than good. In particular, his assertions about private ownership leading to prosperity and freedom *no matter how they are implemented *reveals that his premise is overly simple and does not truly drive a problem-solving approach.  
 
@@ -111,9 +111,7 @@ The "lions and scavengers" framework fails because it short-circuits the process
 
 If we want better than that—and I hope that Shapiro genuinely does beyond selling books and exercising power—we need frameworks based on measurable, objective fact that treat political opponents as people with different views about how to build a better society, not as moral inferiors trying to tear civilization down.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-## **Appendix A - Systematic **Racial Disparities in the United States:
+# Appendix A - Systematic Racial Disparities in the United States:
 
 ## Employment Discrimination
 
@@ -163,9 +161,7 @@ Between 2019 and 2022, stock equity made up nearly 30% of white wealth but only 
 
 Households with a Black householder were more likely than those with a White householder to have unsecured debt (61.3% vs. 53.4%), especially student loan debt (25.8% vs. 17.2%) and medical debt (22.5% vs. 13.4%) [Households With a White, Non-Hispanic Householder Were Ten Times Wealthier Than Those With a Black Householder in 2021](https://www.census.gov/library/stories/2024/04/wealth-by-race.html)
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-## **Appendix B - ****Wealth Inequality Trends **
+# Appendix B - Wealth Inequality Trends
 
 ## Overall Wealth Inequality is Increasing
 
@@ -217,7 +213,7 @@ Between 2019 and 2022, the wealthiest families' wealth dropped from 91 to 71 tim
 
 According to Americans for Tax Fairness analysis, 100 billionaire families spent $2.6 billion, or 16.5% of total political contributions in 2024. In 2000, billionaire election spending came to just $18 million, or 0.6% of total political contributions [Wealth Inequality - Inequality.org](https://inequality.org/facts/wealth-inequality/)
 
-## **Wealth inequality is increasing and becoming more severe.** 
+## Wealth inequality is increasing and becoming more severe.
 
 The evidence shows:
 
@@ -229,9 +225,7 @@ The evidence shows:
 
 This directly supports your point that the system is "becoming more so" unfair in terms of economic outcomes, even as absolute living standards have risen for many.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-## **Appendix C - **Loyalty Over Qualifications - Systematic Pattern
+# Appendix C - Loyalty Over Qualifications - Systematic Pattern
 
 **Cabinet-Wide Assessment:**
 On November 14, 2024, Reuters characterized Trump's nominations as rewarding loyalists, with some nominees having notably few qualifications for their proposed job [Political appointments of the second Trump administration - Wikipedia](https://en.wikipedia.org/wiki/Political_appointments_of_the_second_Trump_administration)
@@ -298,13 +292,11 @@ This is devastating for Shapiro's claim that Trump represents meritocracy. The e
 
 This directly contradicts any claim that Trump's administration represents merit-based advancement. It's the opposite - it's a patronage system based on personal loyalty to Trump himself.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-## Appendix D - Direct Comparison: Ferguson Protests vs. January 6th Capitol Riot
+# Appendix D - Direct Comparison: Ferguson Protests vs. January 6th Capitol Riot
 
 Based on official investigations and impartial reporting, here's what actually happened at both events:
 
-## **Ferguson Protests (2014)**
+## Ferguson Protests (2014)
 
 **Context and Causes:**
 The Department of Justice investigation found that the Ferguson Police Department engaged in a pattern or practice of conduct that violates the First, Fourth, and 14th Amendments, including conducting stops without reasonable suspicion, arrests without probable cause, and using unreasonable force [U.S. Department of Justice](https://www.justice.gov/archives/opa/pr/justice-department-announces-findings-two-civil-rights-investigations-ferguson-missouri)[Department of Justice](https://www.justice.gov/usao-edmo/pr/justice-department-announces-findings-two-civil-rights-investigations-ferguson-missouri). The investigation found racial bias was intentional, with the harms of Ferguson's police and court practices borne disproportionately by African Americans, who accounted for 85 percent of vehicle stops, 90 percent of citations, and 93 percent of arrests despite making up only 67 percent of the population [Office of Public Affairs | Justice Department Announces Findings of Two Civil Rights Investigations in Ferguson, Missouri | United States Department of Justice](https://www.justice.gov/archives/opa/pr/justice-department-announces-findings-two-civil-rights-investigations-ferguson-missouri).
@@ -315,7 +307,7 @@ Along with peaceful protests, there was a significant amount of looting and viol
 **Police Response:**
 Media criticism of the militarization of the police in Ferguson after the shooting was frequent [Ferguson unrest - Wikipedia](https://en.wikipedia.org/wiki/Ferguson_unrest). A DOJ report found that the police response offers lessons in how not to handle mass demonstrations, with poor community-police relations, ineffective communication among the more than 50 law enforcement agencies that responded, police orders that infringed on First Amendment rights, and military-style tactics that antagonized demonstrators [STLPR](https://www.stlpr.org/government-politics-issues/2015-09-02/justice-department-report-finds-uncoordinated-police-response-to-ferguson-protests)[CBS News](https://www.cbsnews.com/news/justice-department-report-on-ferguson-unrest-offers-lessons-in-what-not-to-do/). The DOJ found that the Ferguson police department had virtually no established community relationship with the residents, which negatively impacted the response of all agencies involved [Justice Department report finds uncoordinated police response to Ferguson protests | STLPR](https://www.stlpr.org/government-politics-issues/2015-09-02/justice-department-report-finds-uncoordinated-police-response-to-ferguson-protests).
 
-## **January 6th Capitol Riot (2021)**
+## January 6th Capitol Riot (2021)
 
 **Context and Intent:**
 According to the bipartisan House select committee that investigated the incident, the attack was the culmination of a plan by Trump to overturn the election, with supporters seeking to keep him in power by preventing a joint session of Congress from counting the Electoral College votes to formalize the victory of president-elect Joe Biden [January 6 United States Capitol attack - Wikipedia](https://en.wikipedia.org/wiki/January_6_United_States_Capitol_attack).
@@ -328,7 +320,7 @@ Officers described hand-to-hand combat, being dragged down stairs, and one offic
 **Police Response:**
 Capitol Police leadership had not planned for a riot or attack, and on January 6, under orders from leadership, the force deployed without riot gear, shields, batons, or less lethal arms such as sting grenades [January 6 United States Capitol attack - Wikipedia](https://en.wikipedia.org/wiki/January_6_United_States_Capitol_attack). Police units were not asked by management to bring protective equipment such as gas masks that were issued to them, which left officers ill-prepared to fend off the rioters who were armed with bear spray and stun grenades and equipped with two-way radios and earpieces [Law enforcement response to the January 6 United States Capitol attack - Wikipedia](https://en.wikipedia.org/wiki/Law_enforcement_response_to_the_January_6_United_States_Capitol_attack).
 
-## **Key Differences**
+## Key Differences
 
 **1. Legitimacy of Grievances:**
 

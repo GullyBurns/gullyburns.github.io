@@ -6,15 +6,13 @@ tags: ["altruism", "Crow", "intelligence", "partnership", "rescue", "strangers"]
 draft: false
 ---
 
-*Oh like a bird on the wire, 
-
-Like a drunk in a midnight choir 
-
-I have tried in my way to be free.*
-
-'Bird on the wire'
-
-Leonard Cohen
+> Oh like a bird on the wire,<BR>
+> Like a drunk in a midnight choir <BR>
+> I have tried in my way to be free.
+>
+> **'Bird on the wire'** <BR
+>
+> **Leonard Cohen**
 
 I was driving from work in the early evening, waiting at a red light in the grim no-mans-land of the space beneath a freeway in Los Angeles and just glimpsed a view of a pathetic, saddening sight. A struggling, misshapen, bundle of feathers, flapped uselessly as it dangled trying to escape from a wirelink fence. I sat, a little horrified, not sure what I was seeing and the light turned green and I drove off.  
 
@@ -22,7 +20,9 @@ It was a crow, it's legs somehow entangled and bloody on the wire. Trapped, dang
 
 In the space of thirty seconds, I turned the car around and started looking for a place to park so that I could find some way to help. I had to park illegally and jaywalk to return to the spot. As I walked up to try to figure out what to do, another car pulled up and a guy hopped out with precisely the same thought on his mind as me. 
 
-[](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhHbGGug0JU7wqaBP7qN4mnrsRHnzTDaR6bsJyAKA9MZvfc5c8ReFOKOaDSNE8vdtnVYccac2guHycxRL-yovKXb_m4h4eZMtdCbJSOVGW2B8BTd7irRtbKN-Gd3x48non6HhOoPYFBAi1/s1600/4413271.jpeg)It was a moment of immediate recognition, cooperation and shared humanity. We started trying to figure out what we could do. The crow had some sort of plastic twine wrapped around it's legs that had snagged. It was ten feet up and neither of us could reach it on our own. The only cutting implement we had was a plastic knife. The other man made a cradle with his hands that I stepped into and we started trying to cut the crow free. 
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhHbGGug0JU7wqaBP7qN4mnrsRHnzTDaR6bsJyAKA9MZvfc5c8ReFOKOaDSNE8vdtnVYccac2guHycxRL-yovKXb_m4h4eZMtdCbJSOVGW2B8BTd7irRtbKN-Gd3x48non6HhOoPYFBAi1/s1600/4413271.jpeg)
+
+It was a moment of immediate recognition, cooperation and shared humanity. We started trying to figure out what we could do. The crow had some sort of plastic twine wrapped around it's legs that had snagged. It was ten feet up and neither of us could reach it on our own. The only cutting implement we had was a plastic knife. The other man made a cradle with his hands that I stepped into and we started trying to cut the crow free. 
 
 Naturally, the plastic knife was completely useless and I had to try to be careful to avoid hurting the crow, avoid being pecked and scratched by the barbs of the wire. I'm not exactly a dainty, little thing: I weigh a solid 180lb and as I was dithering trying to cut the twine, my new friend was finding it hard to keep hold.  We took a break to reexamine our options. It was then that we noticed a whole murder of other crows, circling and screeching. They could see what we were doing. They probably thought we were trying to kill or eat their friend and they making a lot of noise. Their caw-cawing probably meant "You bastards! Leave him alone!"
 

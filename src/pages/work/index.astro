@@ -12,17 +12,17 @@ const sortedPosts = posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDa
 >
   <div class="max-w-3xl mx-auto px-4 sm:px-6 py-16">
     <header class="mb-12">
-      <h1 class="text-3xl sm:text-4xl font-bold text-midnight-50 mb-4">
+      <h1 class="text-2xl sm:text-3xl font-bold text-midnight-950 dark:text-midnight-50 mb-4">
         AI for Science
       </h1>
-      <p class="text-midnight-300 text-lg">
+      <p class="text-midnight-950 dark:text-midnight-300 text-lg">
         Building tools to help researchers accelerate discovery.
       </p>
     </header>
 
     {sortedPosts.length === 0 ? (
       <div class="text-center py-16">
-        <p class="text-midnight-400 text-lg">
+        <p class="text-midnight-950 dark:text-midnight-400 text-lg">
           Portfolio coming soon.
         </p>
       </div>
@@ -31,22 +31,22 @@ const sortedPosts = posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDa
         {sortedPosts.map((post) => (
           <li>
             <a href={`/work/${post.slug}`} class="block group">
-              <article class="p-6 -mx-6 rounded-lg hover:bg-midnight-900/50 transition-colors">
-                <h2 class="text-xl font-semibold text-midnight-100 group-hover:text-truth-400 transition-colors">
+              <article class="p-6 -mx-6 rounded-lg hover:bg-midnight-100/50 dark:hover:bg-midnight-900/50 transition-colors">
+                <h2 class="text-lg font-semibold text-midnight-950 dark:text-midnight-100 group-hover:text-truth-600 dark:group-hover:text-truth-400 transition-colors">
                   {post.data.title}
                 </h2>
                 {post.data.organization && (
-                  <span class="inline-block mt-1 text-sm text-midnight-400">
+                  <span class="inline-block mt-1 text-sm text-midnight-950 dark:text-midnight-400">
                     {post.data.organization}
                   </span>
                 )}
-                <p class="mt-2 text-midnight-300 line-clamp-2">
+                <p class="mt-2 text-midnight-950 dark:text-midnight-300 line-clamp-2">
                   {post.data.description}
                 </p>
                 {post.data.tags.length > 0 && (
                   <div class="flex flex-wrap gap-2 mt-3">
                     {post.data.tags.map((tag) => (
-                      <span class="px-2 py-0.5 text-xs rounded bg-midnight-800 text-midnight-400">
+                      <span class="px-2 py-0.5 text-xs rounded bg-midnight-200 dark:bg-midnight-800 text-midnight-950 dark:text-midnight-400">
                         {tag}
                       </span>
                     ))}
@@ -60,18 +60,3 @@ const sortedPosts = posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDa
     )}
   </div>
 </Base>
-
-<style>
-  :global(html:not(.dark)) h1,
-  :global(html:not(.dark)) h2,
-  :global(html:not(.dark)) p,
-  :global(html:not(.dark)) time,
-  :global(html:not(.dark)) .text-midnight-300,
-  :global(html:not(.dark)) .text-midnight-400,
-  :global(html:not(.dark)) .text-midnight-500 {
-    @apply text-midnight-950;
-  }
-  :global(html:not(.dark)) article:hover {
-    @apply bg-midnight-100/50;
-  }
-</style>

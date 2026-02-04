@@ -12,17 +12,17 @@ const sortedPoems = poems.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDa
 >
   <div class="max-w-3xl mx-auto px-4 sm:px-6 py-16">
     <header class="mb-12">
-      <h1 class="text-3xl sm:text-4xl font-bold text-midnight-50 mb-4">
+      <h1 class="text-2xl sm:text-3xl font-bold text-midnight-950 dark:text-midnight-50 mb-4">
         Poetry
       </h1>
-      <p class="text-midnight-300 text-lg max-w-2xl font-serif italic">
+      <p class="text-midnight-950 dark:text-midnight-300 text-lg max-w-2xl font-serif italic">
         Verse, fragments, and attempts at capturing something ineffable.
       </p>
     </header>
 
     {sortedPoems.length === 0 ? (
       <div class="text-center py-16">
-        <p class="text-midnight-400 text-lg">
+        <p class="text-midnight-950 dark:text-midnight-400 text-lg">
           No poems yet. Check back soon.
         </p>
       </div>
@@ -31,18 +31,18 @@ const sortedPoems = poems.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDa
         {sortedPoems.map((poem) => (
           <li>
             <a href={`/poetry/${poem.slug}`} class="block group">
-              <article class="p-6 -mx-6 rounded-lg hover:bg-midnight-900/50 transition-colors">
-                <h2 class="text-xl font-semibold text-midnight-100 group-hover:text-truth-400 transition-colors">
+              <article class="p-6 -mx-6 rounded-lg hover:bg-midnight-100/50 dark:hover:bg-midnight-900/50 transition-colors">
+                <h2 class="text-lg font-semibold text-midnight-950 dark:text-midnight-100 group-hover:text-truth-600 dark:group-hover:text-truth-400 transition-colors">
                   {poem.data.title}
                 </h2>
                 {poem.data.description && (
-                  <p class="mt-2 text-midnight-300 line-clamp-2 font-serif italic">
+                  <p class="mt-2 text-midnight-950 dark:text-midnight-300 line-clamp-2 font-serif italic">
                     {poem.data.description}
                   </p>
                 )}
                 <time
                   datetime={poem.data.pubDate.toISOString()}
-                  class="block mt-3 text-sm text-midnight-500"
+                  class="block mt-3 text-sm text-midnight-950 dark:text-midnight-500"
                 >
                   {poem.data.pubDate.toLocaleDateString('en-US', {
                     year: 'numeric',
@@ -59,17 +59,3 @@ const sortedPoems = poems.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDa
   </div>
 </Base>
 
-<style>
-  :global(html:not(.dark)) h1,
-  :global(html:not(.dark)) h2,
-  :global(html:not(.dark)) p,
-  :global(html:not(.dark)) time,
-  :global(html:not(.dark)) .text-midnight-300,
-  :global(html:not(.dark)) .text-midnight-400,
-  :global(html:not(.dark)) .text-midnight-500 {
-    @apply text-midnight-950;
-  }
-  :global(html:not(.dark)) article:hover {
-    @apply bg-midnight-100/50;
-  }
-</style>

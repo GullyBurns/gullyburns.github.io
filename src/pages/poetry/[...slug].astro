@@ -23,16 +23,16 @@ const formattedDate = poem.data.pubDate.toLocaleDateString('en-US', {
 <Base title={`${poem.data.title} - Poetry`} description={poem.data.description || poem.data.title}>
   <article class="max-w-2xl mx-auto px-4 sm:px-6 py-16">
     <header class="mb-12 text-center">
-      <h1 class="text-3xl sm:text-4xl font-bold text-midnight-50 mb-4">
+      <h1 class="text-2xl sm:text-3xl font-bold text-midnight-950 dark:text-midnight-100 mb-4">
         {poem.data.title}
       </h1>
-      <time datetime={poem.data.pubDate.toISOString()} class="text-sm text-midnight-500">
+      <time datetime={poem.data.pubDate.toISOString()} class="text-sm text-midnight-950 dark:text-midnight-500">
         {formattedDate}
       </time>
     </header>
 
-    <div class="prose prose-invert prose-lg max-w-none text-center
-      prose-p:text-midnight-200 prose-p:font-serif prose-p:leading-loose
+    <div class="prose prose-lg max-w-none text-center dark:prose-invert
+      prose-p:text-midnight-950 dark:prose-p:text-midnight-200 prose-p:font-serif prose-p:leading-loose
       prose-p:whitespace-pre-line
     ">
       <Content />
@@ -40,11 +40,3 @@ const formattedDate = poem.data.pubDate.toLocaleDateString('en-US', {
   </article>
 </Base>
 
-<style>
-  :global(html:not(.dark)) article h1 {
-    @apply text-midnight-900;
-  }
-  :global(html:not(.dark)) .prose p {
-    @apply text-midnight-700;
-  }
-</style>
