@@ -27,7 +27,7 @@ const formattedUpdatedDate = updatedDate?.toLocaleDateString('en-US', {
 <Base title={title} description={description}>
   <article class="max-w-3xl mx-auto px-4 sm:px-6 py-12">
     <header class="mb-8">
-      <h1 class="text-3xl sm:text-4xl font-bold text-midnight-50 mb-4">
+      <h1 class="text-2xl sm:text-3xl font-bold text-midnight-950 dark:text-midnight-100 mb-4">
         {title}
       </h1>
       <div class="flex flex-wrap items-center gap-4 text-sm text-midnight-400">
@@ -67,7 +67,6 @@ const formattedUpdatedDate = updatedDate?.toLocaleDateString('en-US', {
 </Base>
 
 <style>
-  :global(html:not(.dark)) article h1,
   :global(html:not(.dark)) article time,
   :global(html:not(.dark)) article .text-midnight-400 {
     @apply text-midnight-950;

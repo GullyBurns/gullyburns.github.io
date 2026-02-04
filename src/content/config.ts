@@ -47,7 +47,6 @@ export const collections = {
   'ars-veritatis': defineCollection({ type: 'content', schema: blogSchema }),
   'blog': defineCollection({ type: 'content', schema: blogSchema }),
   'poetry': defineCollection({ type: 'content', schema: poetrySchema }),
-  'projects': defineCollection({ type: 'content', schema: projectSchema }),
   'rpg': defineCollection({ type: 'content', schema: rpgSchema }),
   'work': defineCollection({ type: 'content', schema: workSchema }),
 };
