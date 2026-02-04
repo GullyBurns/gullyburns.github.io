@@ -7,7 +7,6 @@ import { getCollection } from 'astro:content';
 const arsVeritatisPosts = await getCollection('ars-veritatis', ({ data }) => !data.draft);
 const blogPosts = await getCollection('blog', ({ data }) => !data.draft);
 const poems = await getCollection('poetry');
-const projects = await getCollection('projects');
 const rpgPosts = await getCollection('rpg');
 const workPosts = await getCollection('work');
 ---
@@ -60,12 +59,6 @@ const workPosts = await getCollection('work');
         title="Poetry"
         description="Verse and fragments. Attempts at capturing something ineffable."
         count={poems.length}
-      />
-      <SectionCard
-        href="/projects"
-        title="Projects"
-        description="Personal coding experiments, open source contributions, and side quests."
-        count={projects.length}
       />
       <SectionCard
         href="/rpg"
