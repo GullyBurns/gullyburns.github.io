@@ -15,9 +15,16 @@ const workPosts = await getCollection('work');
   <div class="max-w-4xl mx-auto px-4 sm:px-6 py-16 sm:py-24">
     <!-- Personal intro -->
     <section class="mb-16">
-      <h1 class="text-4xl sm:text-5xl font-bold text-midnight-50 mb-6">
-        Hello, I'm Gully.
-      </h1>
+      <div class="flex items-center gap-6 mb-6">
+        <img
+          src="/headshot.png"
+          alt="Gully Burns"
+          class="w-24 h-24 sm:w-32 sm:h-32 rounded-full object-cover border-4 border-truth-400/50 flex-shrink-0"
+        />
+        <h1 class="text-4xl sm:text-5xl font-bold text-midnight-50">
+          Hello, I'm Gully.
+        </h1>
+      </div>
       <div class="space-y-4 text-lg text-midnight-300 max-w-2xl">
         <p>
           I build systems that help scientists work faster. My career has moved through
