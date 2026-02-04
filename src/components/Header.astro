@@ -19,9 +19,13 @@ const currentPath = Astro.url.pathname;
       <!-- Logo / Home link -->
       <a
         href="/"
-        class="text-lg font-semibold text-midnight-100 hover:text-truth-400 transition-colors"
+        class="block hover:opacity-80 transition-opacity"
       >
-        gully
+        <img
+          src="/headshot.png"
+          alt="Gully Burns"
+          class="w-10 h-10 rounded-full object-cover border-2 border-truth-400/50 hover:border-truth-400 transition-colors"
+        />
       </a>
 
       <!-- Navigation links -->
