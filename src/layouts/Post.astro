@@ -51,17 +51,18 @@ const formattedUpdatedDate = updatedDate?.toLocaleDateString('en-US', {
       )}
     </header>
 
-    <div class="prose prose-invert prose-lg max-w-none
-      prose-headings:text-midnight-100
+    <div class="prose prose-lg max-w-none
+      dark:prose-invert
+      prose-headings:text-midnight-950 dark:prose-headings:text-midnight-100
       prose-h1:text-xl prose-h1:sm:text-2xl
       prose-h2:text-lg prose-h2:sm:text-xl
-      prose-p:text-midnight-200
-      prose-a:text-truth-400 prose-a:no-underline hover:prose-a:underline
-      prose-strong:text-midnight-100
-      prose-code:text-truth-300 prose-code:bg-midnight-800 prose-code:px-1 prose-code:rounded
-      prose-pre:bg-midnight-900 prose-pre:border prose-pre:border-midnight-700
-      prose-blockquote:border-truth-500 prose-blockquote:text-midnight-300 prose-blockquote:font-serif prose-blockquote:italic
-      prose-li:text-midnight-200
+      prose-p:text-midnight-950 dark:prose-p:text-midnight-200
+      prose-a:text-truth-700 dark:prose-a:text-truth-400 prose-a:no-underline hover:prose-a:underline
+      prose-strong:text-midnight-950 dark:prose-strong:text-midnight-100
+      prose-code:text-truth-800 dark:prose-code:text-truth-300 prose-code:bg-midnight-100 dark:prose-code:bg-midnight-800 prose-code:px-1 prose-code:rounded
+      prose-pre:bg-midnight-100 dark:prose-pre:bg-midnight-900 prose-pre:border prose-pre:border-midnight-300 dark:prose-pre:border-midnight-700
+      prose-blockquote:border-truth-500 prose-blockquote:text-midnight-950 dark:prose-blockquote:text-midnight-300 prose-blockquote:font-serif prose-blockquote:italic
+      prose-li:text-midnight-950 dark:prose-li:text-midnight-200
     ">
       <slot />
     </div>
@@ -75,24 +76,5 @@ const formattedUpdatedDate = updatedDate?.toLocaleDateString('en-US', {
   }
   :global(html:not(.dark)) article .bg-midnight-800 {
     @apply bg-midnight-200 text-midnight-950;
-  }
-  :global(html:not(.dark)) .prose {
-    @apply prose-gray;
-  }
-  :global(html:not(.dark)) .prose p,
-  :global(html:not(.dark)) .prose li,
-  :global(html:not(.dark)) .prose h1,
-  :global(html:not(.dark)) .prose h2,
-  :global(html:not(.dark)) .prose h3,
-  :global(html:not(.dark)) .prose h4,
-  :global(html:not(.dark)) .prose strong,
-  :global(html:not(.dark)) .prose blockquote {
-    @apply text-midnight-950;
-  }
-  :global(html:not(.dark)) .prose a {
-    @apply text-truth-700;
-  }
-  :global(html:not(.dark)) .prose code {
-    @apply bg-midnight-100 text-truth-800;
   }
 </style>
