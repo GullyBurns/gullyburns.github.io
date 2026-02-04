@@ -21,14 +21,16 @@ const workPosts = await getCollection('work');
       </h1>
       <div class="space-y-4 text-lg text-midnight-300 max-w-2xl">
         <p>
-          I build systems that help scientists work faster. My career has meandered through
-          physics, neuroscience, and knowledge engineering, always circling back to the same
-          question: how do we find truth in complex systems?
+          I build systems that help scientists work faster. My career has moved through
+          a few different spaces: physics, neuroinformatics, knowledge engineering, NLP, and AI 
+          but has always circled back to the same
+          question: how do we find truth?
         </p>
         <p>
           For fun, I like to write about epistemology, AI, and what it means to seek truth in an age of
-          information abundance. I also tinker with code and create portals where my friends and I adventure
-          in imaginary worlds.
+          information abundance, misinformation, and astonishingly rapid progress. 
+          I also tinker with code and create imaginary worlds where my friends and I occcasionally visit 
+          (rolling dice as we go).
         </p>
       </div>
     </section>
@@ -36,16 +38,16 @@ const workPosts = await getCollection('work');
     <!-- Section cards -->
     <section class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
       <SectionCard
+        href="/work"
+        title="AI for Science"
+        description="Professional work in AI for Science. Building tools to accelerate discovery."
+        count={workPosts.length}
+      />
+      <SectionCard
         href="/ars-veritatis"
         title="Ars Veritatis"
         description="Essays on truth, science, and AI's role in society. How do we prioritize truth over control?"
         count={arsVeritatisPosts.length}
-      />
-      <SectionCard
-        href="/work"
-        title="Work"
-        description="Professional work in AI for Science. Building tools to accelerate discovery."
-        count={workPosts.length}
       />
       <SectionCard
         href="/blog"

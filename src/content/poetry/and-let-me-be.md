@@ -4,45 +4,34 @@ pubDate: 2012-01-21
 tags: ["being", "poetry"]
 ---
 
+[\[&#9654;\]](https://youtu.be/HeJWT1e3t3w?si=RUhXdzph1wF2IPc4)
+
 And let me look with bright blue eyes,
-
 on beauty's heart, on beauty's face,
-
 and let me feel her breathing sighs,
-
 with all of true love's style and grace
 
 And let my heart not quicken so,
-
 when shadows crawl across my eyes,
-
 to darken and disgrace my sight,
-
 with unknown fears and useless lies.
 
 And let me be someone to trust,
-
 who will not lie, who does not hurt:
-
 someone who is not ruled by lust,
-
 but loves to laugh and dance and flirt.
 
 And let me show that I can be:
-
 a man like no-one else or other;
-
 a unique soul who lives for truth;
-
 who loves the world and is its brother.
 
 And now I know what I must do,
-
 in life, in love, in work, in play,
-
 and all my thanks must go to you,
-
 for simply showing me the way.
+
+<hr>
 
 I think that I'd like this poem to be written on my headstone when I die.
 
