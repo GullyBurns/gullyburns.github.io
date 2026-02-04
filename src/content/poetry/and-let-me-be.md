@@ -5,7 +5,7 @@ pubDate: 2012-01-21
 tags: ["being", "poetry"]
 ---
 
-[\[&#9654;\]](https://youtu.be/HeJWT1e3t3w?si=RUhXdzph1wF2IPc4)
+\[[&#9654; YouTube](https://youtu.be/HeJWT1e3t3w?si=RUhXdzph1wF2IPc4)\]
 
 And let me look with bright blue eyes,
 on beauty's heart, on beauty's face,
