@@ -32,11 +32,29 @@ The design pattern of this work consists of five stages:
 
 Skillful Alhazen is a lightweight, simplified approach to this by using Claude's skill system coupled with an underlying [TypeDB](https://github.com/typedb/typedb) database to manage the logic of the data generated at each step. The key insight: scripts handle I/O (fetching, storing, querying), while Claude handles comprehension (reading, extracting meaning, synthesizing). This separation minimizes token usage while maximizing Claude's capabilities. This work is forked from CZI's [alhazen](https://github.com/chanzuckerberg/alhazen) project, which I created while at the Chan Zuckerberg Initiative to help researchers understand scientific literature at scale. The original system used LangChain, PostgreSQL, and various LLM providers.
 
-(ADD TEXT ABOUT THE DESIGN OF THE COLLECTION/THING/ARTIFACT/FRAGMENT/NOTE database structure HERE)
+At the heart of Skillful Alhazen is a five-entity data model designed to capture knowledge with full provenance:
 
-The idea is that we configure the system to some semantic principles dependent on a given use case, and as a practical starting use case, I set this up to support job-hunting.   
+| Entity | Purpose | Examples |
+|--------|---------|----------|
+| **Collection** | Named groupings for organization | "CRISPR Literature Review", "Q1 Job Applications" |
+| **Thing** | Any item being tracked | A paper, a company, a job position, a dataset |
+| **Artifact** | Raw captured content with provenance | The full text of a job posting, a PDF, an API response |
+| **Fragment** | Extracted portions of artifacts | A specific requirement, a key quote, a figure |
+| **Note** | Claude's (or your) annotations | Fit analysis, research findings, strategy notes |
 
-The idea is to us Claude Code as the interface, simply interacting through natural conversation:
+This design serves several purposes:
+
+**Provenance preservation.** Every piece of knowledge traces back to its source. When Claude extracts a skill requirement from a job posting, that fragment links to the original artifact (the raw job description), which links to the thing (the position), which may belong to collections (e.g., "High Priority Jobs"). You can always ask: "Where did this come from?"
+
+**Separation of raw and interpreted.** Artifacts store exactly what was captured—no interpretation. Fragments and notes represent Claude's (or your) understanding of that content. This separation means you can re-analyze the same artifact with different prompts or as Claude's capabilities improve.
+
+**Flexible domain extension.** The base model is domain-agnostic. Domain-specific skills (like `/jobhunt` or `/epmc-search`) extend it with specialized entity types. A job position is a Thing; a requirement is a Fragment; a fit analysis is a Note. The pattern remains consistent across domains.
+
+**Query-friendly structure.** TypeDB's pattern matching lets you ask questions like: "Show me all notes about things in my 'High Priority' collection where the note type is 'skill-gap' and the gap is 'required'." The relational structure makes these queries natural.
+
+Part of the initial setup of any use case is to configure the system to some semantic principles over the different Entities shown.
+
+As a practical starting use case, I set this up to support job-hunting. The goal is to use Claude Code as the interface, simply interacting through natural conversation:
 
 ```
 You: I found an interesting job posting at https://example.com/senior-ml-engineer
