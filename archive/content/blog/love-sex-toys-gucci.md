@@ -1,0 +1,23 @@
+---
+title: "Love, Sex toys and Gucci couture"
+description: "How objectification poisons dating culture, turning people into accessories rather than seeing them as human beings."
+pubDate: 2012-05-20
+tags: ["dating", "love", "objectification"]
+draft: false
+---
+
+One particularly awful date a couple of years ago tattooed itself into my soul. My date spent the evening describing how several other men (who had also shown an interest in her) made her feel. She used an interesting analogy to explain what was going on to me: one man she had been seeing was like a 'warm cuddly sweater', but she was looking for a guy like a 'Gucci dress'. I suspect this was all a not-so-subtle attempt to explain how she was not even slightly interested in me. She never got around to telling me what kind of fashion accessory she saw me as. By that time, I was too disgusted and angry to care. 
+
+To me, this seemed the quintessence of why dating in Los Angeles sucks. I'm not a bloody handbag, I'm a *person*. 
+
+['Objectification'](http://en.wikipedia.org/wiki/Objectification) may be thought of the process by which a person is made into a thing.
+
+The philosopher Martha Nussbaum has argued that something is objectified if certain criteria are present. These include *instrumentality* (if the thing is treated as a tool for one's own purposes); *denial of autonomy* (if the thing is treated as if lacking in agency or self-determination); *fungibility* (if the thing is treated as if interchangeable); *denial of subjectivity* (if the thing is treated as if there is no need to show concern for the 'object's' feelings and experiences). Note that one of the categories is *violability* (if the thing is treated as if permissible to damage or destroy) which, when applied to people is widely considered unacceptable. All of the other criteria, however, are habitually and routinely applied by people on each other within the context of dating. 
+
+When men do this, it's generally based on treating women as sexual objects and is justifiably recognized as denigrating, dehumanizing and exploitative. When women do this, its usually related to finding a sugar-daddy or a protector. At their worst, men seek women as sex toys; and apparently, women are looking for Gucci couture. I think that these are just the worst, most obvious examples, but the underlying attitude is absolutely pervasive, widely accepted and wildly destructive to everyone touched by it. 
+
+Objectification tends to be obvious to bystanders watching it happening. Recently, I was standing in the lunch queue at my local sandwich shop and two women standing behind me were describing a friend of theirs who was in the thrall of a particularly exploitative man. This is something we have all seen. It sounded as if she was simply being used by the man she was interested in and both friends were delicately talking about how she didn't want to hear them tell her the truth. We've all been there. The person being used  is always the last to realize and the person being used is often strangely complicit in their own exploitation. "They'll only like me if I give them something" or so the logic goes.   
+
+I think people objectify one another (and themselves) *all the time* in romantic relationships, especially in Los Angeles. If you find yourself asking the question "Do I love this person?" and you rationalize your perspective via a pros-and-cons sort of logic then guess what? You're objectifying the person you're evaluating. That person is now a thing that provides you with something like sex, or money, or romance. It might be framed as someone who makes you feel a certain way, or someone who fulfills a romantic (or sexual) fantasy or caricature. Where are *they* as a person in this calculation? Why is love so resplendent, so shockingly glorious and beautiful, so selfless and unthinking amid all the cynical calculations? Well, it hinges on the thought of the loved one as someone you treat with the same consideration as you treat yourself, or more. Quite the antithesis of the sorts of selfish calculations I find so sickening. 
+
+So, please, take a moment and see the person sitting across the table from you. The person who has spent hours in front of a mirror or on a treadmill to look their best, and be the specific-type-of-object you currently think you're looking for in a man or a woman. Take a moment, throw all that nonsense aside, be yourself and talk to them as a person. You might find a little moment of transcendent vulnerable beauty shimmering in the darkness. In that discovery, you will make the world a happier, more radiant place for all of us.
