@@ -6,7 +6,7 @@ tags: ["Evil", "Gun Violence", "The Devil"]
 draft: false
 ---
 
-A fictional character in a movie once said: &#8220;[the greatest trick the devil ever pulled was convincing the world he didn&#8217;t exist](https://www.youtube.com/watch?v=EgSL3hY5iPE)&#8221;. Perhaps this is true, but I think certainly that, at the very least, the state of our national debate about guns runs a close second.
+A fictional character in a movie once said: &#8220;[the greatest trick the devil ever pulled was convincing the world he didn&#8217;t exist](https://www.youtube.com/watch?v=BQpfa9RZbTk)&#8221;. Perhaps this is true, but I think certainly that, at the very least, the state of our national debate about guns runs a close second.
 
 The Devil&#8217;s work is inherently based on convincing lots of good people to take actions that directly or indirectly cause suffering. He does this subtly, with lies and deceptions, with simplistic arguments that are usually too good to be true, with ideologies and propaganda. He does this by playing on our rawest emotions, on our anger, and our fear, our righteousness and our indignation.
 
