@@ -6,6 +6,10 @@ tags: ["50th Birthday. Being of service.", "Making a difference", "mortality"]
 draft: false
 ---
 
+\[[&#9654; PodBean](https://ars-veritatis.podbean.com/e/on-turning-50-almost-dying-and-what-it-means-to-live/)\]
+
+
+
 Yesterday was my fiftieth birthday. Inevitably, after opening gifts, talking to family, and eating delicious chocolate covered strawberries provided by my wonderful wife,  I started pondering some big, weighty questions.
 
 Strangely, the moment that provides me the most clarity looking back over my life was when, at the age of 21, I almost fell to my death from a six-story rooftop in Paris clad only in my underwear.
