@@ -17,7 +17,7 @@ According to legend, it was during this time, in the dark of his confinement, a 
 
 Legends and myths always surround the lives of great figures. They embellish and serve to create mystique but rarely serve to illuminate the truth of what happened.   
 
-The one thing we can be sure of is that a millenia ago, in the 11th century, Ibn al-Haythem wrote the *Book of Optics*, a work so foundational that it shaped the understanding of light and vision for six centuries. He also articulated something more durable than any single discovery: a philosophy of critical reading. The duty of anyone who investigates the writings of scientists, he argued, is to make themselves an *enemy* of all they read—to attack it from every side, suspect every conclusion, and distrust even their own judgment.
+The one thing we can be sure of is that **a thousand years ago**, in the 11th century, Ibn al-Haythem wrote the *Book of Optics*, a work so foundational that it shaped the understanding of light and vision for six centuries. He also articulated something more durable than any single discovery: a philosophy of critical reading. The duty of anyone who investigates the writings of scientists, he argued, is to make themselves an *enemy* of all they read—to attack it from every side, suspect every conclusion, and distrust even their own judgment.
 
 I named this project after him because that adversarial stance toward information feels like exactly the right posture for AI-assisted research. We're in a moment where it's very easy to use AI to accumulate—to summarize, collect, store. What's harder, and more valuable, is to use it to *interrogate*.
 
