@@ -5,6 +5,9 @@ pubDate: 2020-04-03
 tags: ["Colleagues", "COVID-19", "heroism", "poetry", "Teleconference"]
 ---
 
+
+\[[&#9654; Animation](/faces-of-my-colleagues_animation.html)\]
+
 On a Zoom this week
 Face-to-face with colleagues
 Close up to grit and grace.
@@ -20,5 +23,3 @@ Perhaps I&#8217;m not alone
 To look around
 At my colleagues
 And see the heroes there.
-
-[View animated version](/faces-of-my-colleagues_animation.html)
