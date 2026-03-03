@@ -20,3 +20,5 @@ Perhaps I&#8217;m not alone
 To look around
 At my colleagues
 And see the heroes there.
+
+[View animated version](/faces-of-my-colleagues_animation.html)
