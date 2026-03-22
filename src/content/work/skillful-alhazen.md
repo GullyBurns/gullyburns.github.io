@@ -11,7 +11,7 @@ featured: true
 >
 > — Ibn al-Haytham (Alhazen), 965-1039 AD
 
-**A thousand years ago**, in Cairo, so the story goes, a scholar named Ibn al-Haytham (later known as 'Alhazen' to the west) had made some rash promises to the Caliph of Egypt. He had said that he could regulate the flooding of the Nile. When fieldwork proved the scheme impossible, he had to tell the notoriously volatile ruler that his grand plan would fail. Fearing for his life, he pretended to go insane and was placed under house arrest for ten years. 
+**A thousand years ago** a scholar named Ibn al-Haytham (later known as 'Alhazen' to the west) rashly promised the Caliph of Egypt that he could regulate the flooding of the Nile. When fieldwork proved the scheme impossible, he had to tell the notoriously volatile ruler that his grand plan would fail. Fearing for his life, he pretended to go insane and was placed under house arrest for ten years. 
 
 According to legend, it was during this time, in the dark of his confinement, a small hole in the wall projected a perfect inverted image of the outside scene onto a bare white wall. He realized in a flash how the eye worked and invented the 'camera lucida' as an optical instrument. Such is the story.  
 
