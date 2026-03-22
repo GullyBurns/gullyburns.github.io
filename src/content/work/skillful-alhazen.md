@@ -72,4 +72,4 @@ Ibn al-Haytham produced his greatest work under constraint. There's something in
 
 That's what I'm trying to build here: a system that is methodical by design, that accumulates rather than forgets, that interrogates rather than collects. An enemy of what it reads, in the best sense - with the truth as it's goal. 
 
-**Repository**: [github.com/GullyBurns/skillful-alhazen](https://github.com/GullyBurns/skillful-alhazen) · Forked from [chanzuckerberg/alhazen](https://github.com/chanzuckerberg/alhazen)
+**Repository**: [github.com/sciknow-io/skillful-alhazen](https://github.com/sciknow-io/skillful-alhazen) · Forked from [chanzuckerberg/alhazen](https://github.com/chanzuckerberg/alhazen)
