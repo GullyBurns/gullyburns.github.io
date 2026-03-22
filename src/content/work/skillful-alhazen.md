@@ -19,15 +19,12 @@ Stories nonwithstanding, we know that Ibn al-Haythem discovered how the eye work
 
 That adversarial stance toward information provides a useful framing for AI-enabled online research. When we're inundated with information, Let us interrogate the things we see, hear, and read with caution and a careful mindset. Finding truth is challenging, hard, work. The goal of this project is to use AI to make that goal easier.  
 
----
-
 In his book *Where Good Ideas Come From*, Steven Johnson wrote about the 'commonplace book' - a form of personal notebook where thinkers would note down passages, observations, and ideas organized by thematic headings. Johnson described his own use of this underlying idea in his work as an author, and then took the idea one-stage further: he worked with Google to create NotebookLM, an AI agent that analyzes users' collections of online resources to provide explanations, analysis, and understanding over their content.   
 
 Inspired by that idea, I coded [Skillful-Alhazen](https://github.com/GullyBurns/skillful-alhazen), an AI research assistant powered by an underlying '*ontological notebook*'. Rather than relying only on AI's raw ability with natural language to define the semantics of content, the system uses a powerful new knowledge graph technology \([TypeDB](https://typedb.com/)\) that is ideally suited to support AI-agents generally \([blog post](https://typedb.com/blog/why-agents-need-ontologies)\). 
 
----
 
-*What makes Alhazen 'skillful'?* 
+**What makes Alhazen 'skillful'?**
 
 Here, we combine Claude's innovative idea of **agent skills** (a compartmentalized agentic capability packaged in the most flexible, lightweight way possible) with an ontologically-powered knowledge graph to represent the universe of discourse needed for that capability. 
 
@@ -41,9 +38,7 @@ If each skill represents a specific domain, so that the domain's conceptual mode
 
 As someone who has worked in the field of scientific knowledge engineering for decades, the combination of LLM + Logic unlocks a real superpower. The intrinsic challenge of developing a rich, accurate, well-designed knowledge representation for any given domain becomes tractable. 
 
----
-
-*Curation Design Patterns - The Importance of Provenance* 
+**Curation Design Patterns - The Importance of Provenance**
 
 The project has grown out of work I did previously to help researchers make sense of scientific literature at scale. The key to that work is being able to track the provenance of information. In Alhazen, research work is defined as following the following process: 
 
@@ -67,7 +62,7 @@ Here, we explicitly define classes of entities that model information artifacts 
 
 ---
 
-*Worked Examples*
+**Worked Examples**
 
 We describe two examples of the system's use: 
 
