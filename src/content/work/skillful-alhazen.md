@@ -30,7 +30,7 @@ Here, we combine Claude's innovative idea of **agent skills** (a compartmentaliz
 
 This is a powerful modeling distinction - if each skill represents a well-defined domain where everything we want to say about that domain must be defined explicitly then we face a trade off between semantic complexity and tractability. The more complex the underlying reasoning is, the harder it is to encode and query. AI's current success is driven by machine learning, neural networks, and probabilistic reasoning - so why fall back to logic representations that notoriously failed to deliver in past epochs of AI devleopment? 
 
-There are advantages to concrete, closed world reasoning: it is deterministic, it is inherently explainable, it scales well. As a commercial-grade database, TypeDB supports this functionality at scale with enough logical richness to permit genuine utility.  
+There are advantages to concrete, closed world reasoning: it is deterministic, it is inherently explainable, it scales well. As a commercial-grade database, TypeDB supports this functionality with enough logical richness to permit genuine utility.  
 
 Moreover, modern frontier models (and their coding agents) are powerful enough to be able to translate everyday human instructions into code that execute effectively over these databases. Claude can build and edit schema; it can write code to execute queries; it can write ad-hoc queries on-the-fly; it can catch its own mistakes and correct them; it can format data appropriately. Moreover, (and most impressively) because TypeDB is a declarative formulation that is robust to schema changes without corrupting the entire database, Claude can follow instructuions to *redesign the TypeDB knowledge graph on-the-fly*. 
 
