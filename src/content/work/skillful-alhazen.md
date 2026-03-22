@@ -60,8 +60,6 @@ This relatively simple design pattern is applicable to a wide range of curation 
 
 Here, we explicitly define classes of entities that model information artifacts that pertain to the things under study. Papers may describe scientific phenomena; online postings describe job opportunities. Tracking the relationship between your research's end product about a 'thing' requires you to track how you came to derive that end product from existing sources. 
 
----
-
 **Worked Examples**
 
 We describe two examples of the system's use: 
