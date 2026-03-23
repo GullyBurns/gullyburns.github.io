@@ -51,6 +51,7 @@ This relatively simple design pattern is applicable to a wide range of curation 
 |--------------|-------------|-------------------|---------------------|
 | **Collection** | Groupings of entities of interest | "High priority roles" | "Biological models" |
 | **Thing** | Primary items you track | Company, Position | Agent Skill |
+| **Relations** | Relationships between things | Links between postions and conversations | Links between schema and design gaps |
 | **Artifact** | Raw captured content | Job Description | Schema File, Script |
 | **Fragment** | Extracted pieces | Requirement | Function |
 | **Note** | Claude's analysis | Fit Analysis | Skill design gap |
