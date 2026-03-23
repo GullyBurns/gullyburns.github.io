@@ -47,13 +47,13 @@ The project has grown out of work I did previously to help researchers make sens
 
 This relatively simple design pattern is applicable to a wide range of curation tasks and is supported in our case by the following high-level object types (with examples from two domains Job Hunting and Literature Review):
 
-| Alhazen Type | Your Domain | Example (Job Hunt) | Example (Lit Review) |
+| Alhazen Type | Your Domain | Example (Job Hunt) | Example (Domain Modeling) |
 |--------------|-------------|-------------------|---------------------|
-| **Task** | The goal framing the curation | "Find a senior ML role" | "Understand CRISPR off-target effects" |
-| **Thing** | Primary items you track | Company, Position | Paper, Author |
-| **Artifact** | Raw captured content | Job Description | PDF, Abstract |
-| **Fragment** | Extracted pieces | Requirement | Claim, Method |
-| **Note** | Claude's analysis | Fit Analysis | Critique, Summary |
+| **Collection** | Groupings of entities of interest | "High priority roles" | "Biological models" |
+| **Thing** | Primary items you track | Company, Position | Agent Skill |
+| **Artifact** | Raw captured content | Job Description | Schema File, Script |
+| **Fragment** | Extracted pieces | Requirement | Function |
+| **Note** | Claude's analysis | Fit Analysis | Skill design gap |
 
 Here, we explicitly define classes of entities that model information artifacts that pertain to the things under study. Papers may describe scientific phenomena; online postings describe job opportunities. Tracking the relationship between your research's end product about a 'thing' requires you to track how you came to derive that end product from existing sources. 
 
