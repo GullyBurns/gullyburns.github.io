@@ -11,20 +11,17 @@ featured: true
 >
 > — Ibn al-Haytham (Alhazen), 965-1039 AD
 
-**A thousand years ago** a scholar named Ibn al-Haytham (later known as 'Alhazen' to the west) rashly promised the Caliph of Egypt that he could regulate the flooding of the Nile. When fieldwork proved the scheme impossible, he had to tell the notoriously volatile ruler that his grand plan would fail. Fearing for his life, he pretended to go insane and was placed under house arrest for ten years. 
-
-According to legend, it was during this time, in the dark of his confinement, a small hole in the wall projected a perfect inverted image of the outside scene onto a bare white wall. He realized in a flash how the eye worked and invented the 'camera lucida' as an optical instrument. Such is the story.  
-
-Stories nonwithstanding, we know that Ibn al-Haythem discovered how the eye works and wrote the masterful *Book of Optics* around the years 1011-1021 CE. This work was so foundational that it shaped the understanding of light and vision for six centuries. He was arguably the first authentic scientist who principally derived his worldview from experimentation and observation. He also articulated a philosophy of critical reading. The duty of anyone who investigates the writings of scientists, he argued, is to make themselves an *enemy* of all they read—to attack it from every side, suspect every conclusion, and distrust even their own judgment.
-
-That adversarial stance toward information provides a useful framing for AI-enabled online research. When we're inundated with information, Let us interrogate the things we see, hear, and read with caution and a careful mindset. Finding truth is challenging, hard, work. The goal of this project is to use AI to make that goal easier.  
-
-In his book *Where Good Ideas Come From*, Steven Johnson wrote about the 'commonplace book' - a form of personal notebook where thinkers would note down passages, observations, and ideas organized by thematic headings. Johnson described his own use of this underlying idea in his work as an author, and then took the idea one-stage further: he worked with Google to create NotebookLM, an AI agent that analyzes users' collections of online resources to provide explanations, analysis, and understanding over their content.   
+In his book, Where Good Ideas Come From, Steven Johnson wrote about the commonplace book - a form of personal notebook where thinkers would note down passages, observations, and ideas organized by thematic headings. Johnson described his own use of this idea in his work as an author, and then took it one-stage further: he worked with Google to create NotebookLM, an AI agent that analyzes users’ collections of online resources to provide explanations, analysis, and understanding over their content.
 
 Inspired by that idea, I coded [Skillful-Alhazen](https://github.com/GullyBurns/skillful-alhazen), an AI research assistant powered by an underlying '*ontological notebook*'. Rather than relying only on AI's raw ability with natural language to define the semantics of content, the system uses a powerful new knowledge graph technology \([TypeDB](https://typedb.com/)\) that is ideally suited to support AI-agents generally \([blog post](https://typedb.com/blog/why-agents-need-ontologies)\). 
 
+The name honors an eleventh-century scholar named Ibn al-Haytham (latinized as ‘Alhazen’) who discovered how the eye works and wrote the masterful Book of Optics around the years 1011-1021 CE. This work was so foundational that it shaped the understanding of light and vision for six centuries. He was arguably the first authentic scientist who principally derived his worldview from experimentation and observation. He also articulated a philosophy of critical reading. The duty of anyone who investigates the writings of scientists, he argued, is to make themselves an enemy of all they read—to attack it from every side, suspect every conclusion, and distrust even their own judgment.
 
-**What makes Alhazen 'skillful'?**
+Stories nonwithstanding, we know that Ibn al-Haythem discovered how the eye works and wrote the masterful *Book of Optics* around the years 1011-1021 CE. This work was so foundational that it shaped the understanding of light and vision for six centuries. He was arguably the first authentic scientist who principally derived his worldview from experimentation and observation. He also articulated a philosophy of critical reading. The duty of anyone who investigates the writings of scientists, he argued, is to make themselves an *enemy* of all they read—to attack it from every side, suspect every conclusion, and distrust even their own judgment.
+
+That adversarial stance toward information provides a useful framing for AI-enabled online research. When we're inundated with information, Let us interrogate the things we see, hear, and read with caution and a careful mindset. Finding truth is challenging. The goal of this project is to use AI to make that goal easier.  
+
+**So, why do we call the Alhazen tool ‘skillful’?**
 
 Here, we combine Claude's innovative idea of **agent skills** (a compartmentalized agentic capability packaged in the most flexible, lightweight way possible) with an ontologically-powered knowledge graph to represent the universe of discourse needed for that capability. 
 
