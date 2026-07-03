@@ -1,0 +1,21 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    # The Astro toolchain must be upgraded as a coordinated set. In particular,
+    # @astrojs/tailwind has no release that supports Astro 6+, so an isolated
+    # major bump of `astro` (or @astrojs/mdx, which tracks Astro's major)
+    # produces an unresolvable peer-dependency conflict (ERESOLVE) and breaks
+    # the build. Allow minor/patch updates; require Astro majors to be done
+    # deliberately (alongside migrating off the deprecated @astrojs/tailwind).
+    ignore:
+      - dependency-name: "astro"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "@astrojs/mdx"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "@astrojs/tailwind"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "tailwindcss"
+        update-types: ["version-update:semver-major"]
