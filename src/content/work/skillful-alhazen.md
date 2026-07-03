@@ -1,62 +1,73 @@
 ---
 title: "Skillful-Alhazen: AI-Powered Knowledge Curation"
-description: "A TypeDB-powered scientific knowledge notebook built on Claude Code and OpenClaw, embodying the critical reading philosophy of the medieval scholar Ibn al-Haytham."
-pubDate: 2026-02-28
+description: "A TypeDB-powered scientific knowledge notebook built on Claude Skills, embodying the critical reading philosophy of the medieval scholar Ibn al-Haytham."
+pubDate: 2026-03-22
 organization: "Personal Project"
 tags: ["ai", "knowledge-engineering", "typedb", "claude-code", "scientific-curation"]
 featured: true
 ---
 
+<iframe title="Skillful Alhazen - AI-Powered Knowledge Curation" allowtransparency="true" height="150" width="100%" style="border: none; min-width: min(100%, 430px);height:150px;" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=s5djn-1a7beda-pb&from=pb6admin&share=1&download=1&rtl=0&fonts=Arial&skin=1&font-color=auto&logo_link=episode_page&btn-skin=7" loading="lazy"></iframe>
+
 > *"The duty of the man who investigates the writings of scientists, if learning the truth is his goal, is to make himself an enemy of all that he reads, and, applying his mind to the core and margins of its content, attack it from every side."*
 >
 > — Ibn al-Haytham (Alhazen), 965-1039 AD
 
-In the eleventh century, so the story goes, a scholar in Cairo had made some rash promises to the Caliph of Egypt. He had said that he could regulate the flooding of the Nile. When fieldwork proved the scheme impossible, he had to tell the notoriously volatile ruler that his grand plan would fail. Fearing for his life, Ibn al-Haytham, pretended to go insane and was placed under house arrest for ten years. 
+In his book, Where Good Ideas Come From, Steven Johnson wrote about the commonplace book - a form of personal notebook where thinkers would note down passages, observations, and ideas organized by thematic headings. Johnson described his own use of this idea in his work as an author, and then took it one-stage further: he worked with Google to create NotebookLM, an AI agent that analyzes users’ collections of online resources to provide explanations, analysis, and understanding over their content.
 
-According to legend, it was during this time, in the dark of his confinement, a small hole in the wall projected a perfect inverted image of the outside scene onto a bare white wall. The man (later known as 'Alhazen' to the west) realized in a flash how the eye worked and invented the 'camera lucida' as an optical instrument.  
+Inspired by that idea, I coded [Skillful-Alhazen](https://github.com/GullyBurns/skillful-alhazen), an AI research assistant powered by an underlying '*ontological notebook*'. Rather than relying only on AI's raw ability with natural language to define the semantics of content, the system uses a powerful new knowledge graph technology \([TypeDB](https://typedb.com/)\) that is ideally suited to support AI-agents generally \([blog post](https://typedb.com/blog/why-agents-need-ontologies)\). 
 
-Legends and myths always surround the lives of great figures. They embellish and serve to create mystique but rarely serve to illuminate the truth of what happened.   
+The name honors an eleventh-century scholar named Ibn al-Haytham (latinized as ‘Alhazen’) who discovered how the eye works and wrote the masterful Book of Optics around the years 1011-1021 CE. This work was so foundational that it shaped the understanding of light and vision for six centuries. He was arguably the first authentic scientist who principally derived his worldview from experimentation and observation. He also articulated a philosophy of critical reading. The duty of anyone who investigates the writings of scientists, he argued, is to make themselves an enemy of all they read—to attack it from every side, suspect every conclusion, and distrust even their own judgment.
 
-The one thing we can be sure of is that **a thousand years ago**, in the 11th century, Ibn al-Haythem wrote the *Book of Optics*, a work so foundational that it shaped the understanding of light and vision for six centuries. He also articulated something more durable than any single discovery: a philosophy of critical reading. The duty of anyone who investigates the writings of scientists, he argued, is to make themselves an *enemy* of all they read—to attack it from every side, suspect every conclusion, and distrust even their own judgment.
+That adversarial stance toward information provides a useful framing for AI-enabled online research. When we're inundated with information, Let us interrogate the things we see, hear, and read with caution and a careful mindset. Finding truth is challenging. The goal of this project is to use AI to make that goal easier.  
 
-I named this project after him because that adversarial stance toward information feels like exactly the right posture for AI-assisted research. We're in a moment where it's very easy to use AI to accumulate—to summarize, collect, store. What's harder, and more valuable, is to use it to *interrogate*.
+**So, why do we call the Alhazen tool ‘skillful’?**
 
----
+Here, we combine Claude's innovative idea of **agent skills** (a compartmentalized agentic capability packaged in the most flexible, lightweight way possible) with an ontologically-powered knowledge graph to represent the universe of discourse needed for that capability. 
 
-[Skillful-Alhazen](https://github.com/GullyBurns/skillful-alhazen) is a personal AI research assistant built around that idea. You talk to it in plain language, and it then goes off and does the work: reading sources, extracting what matters, storing it in a structured knowledge graph, and surfacing connections across everything it's learned. Unlike a chat window, it doesn't forget between sessions. And unlike a search engine, it doesn't just find things—it builds up an understanding of a domain over time.
+This is a powerful modeling distinction - if each skill represents a well-defined domain where everything we want to say about that domain must be defined explicitly then we face a trade off between semantic complexity and tractability. The more complex the underlying reasoning is, the harder it is to encode and query.  
 
-The system runs in two modes. On your laptop, interactively, through Claude Code. Or—and this is where it gets interesting—persistently on a dedicated machine that runs OpenClaw, sends you Telegram messages when it discovers something worth your attention, and picks up exactly where it left off when you check in the next morning. You go to sleep; it keeps working.
+There are advantages to concrete, closed world reasoning: it is deterministic, it is inherently explainable, and it scales well. As a commercial-grade database, TypeDB is state-of-the-art for this functionality with enough logical richness to permit genuine utility.
 
-The knowledge it accumulates is stored in a graph database ([TypeDB](https://github.com/typedb/typedb)) that tracks not just facts but their provenance—where something came from, what was inferred versus captured verbatim, how pieces of evidence connect to each other. When you ask "where did this come from?", the system can actually answer. When you ask "what's the common thread across these findings?", it has the structure to reason across them rather than just keyword-matching.
+Modern frontier models (and their coding agents) are powerful enough to be able to translate everyday human instructions into code that execute effectively over these databases. Claude can build and edit schema; it can write code to execute queries; it can write ad-hoc queries on-the-fly; it can catch its own mistakes and correct them; it can format data appropriately. Most impressively, because TypeDB is a declarative formulation that is robust to schema changes without corrupting the entire database, Claude can *redesign the TypeDB knowledge graph on-the-fly*. 
 
----
+If each skill represents a specific domain, then any domain’s conceptual model can be generated by the agent itself. We can instrument Claude to track its failings and performance gaps in the use of the skill over time to create an agentic loop where it iteratively improves the implementation of the skill over time.
 
-The project has grown out of work I did previously to help researchers make sense of scientific literature at scale. That work convinced me of something that seems simple but has significant implications: the bottleneck in research isn't finding information. It's *making sense* of it. Finding is something search engines do reasonably well. Sense-making—reading carefully, extracting what matters, holding many sources in tension with each other, noticing when something doesn't add up—is something humans do, slowly and expensively, and that AI is now genuinely good at.
+As someone who has worked in the field of scientific knowledge engineering for decades, the combination of LLM + Logic unlocks a real superpower. The intrinsic challenge of developing a rich, accurate, well-designed knowledge representation for any given domain becomes tractable. 
 
-Biocuration is the formal discipline that sits at this intersection. Biocurators read scientific papers and transform their contents into structured database entries—the kind that power drug discovery pipelines, clinical decision support systems, and rare disease databases. It's painstaking work, done by specialists, and there's never enough of it. The backlog of unread literature in any given field grows faster than the community of people who could curate it.
+**Curation Design Patterns - The Importance of Provenance**
 
-The promise of AI-assisted curation isn't just automation—it's scale. A system that can read a thousand papers overnight and surface the ones that matter, extract the specific facts a researcher needs, and flag the ones that seem to contradict each other, changes what's possible. Not by replacing expert judgment but by making sure that judgment gets applied to the things that most need it.
+The project has grown out of work I did previously to help researchers make sense of scientific literature at scale. The key to that work is being able to track the provenance of information. In Alhazen, research work is defined as following the following process: 
 
----
+1. **Discover** - where you find information that is relevant for your domain
+2. **Ingest** - where you make a copy of that information in the context of your study
+3. **Sensemaking** - where you read the content and interpret it according to some underlying conceptual model
+4. **Analysis** - where you synthesize the information you compiled from each source into a whole for some purpose
+5. **Report** - where you generate output for your user community.  
 
-The two research workflows I've built so far sit at opposite ends of the urgency spectrum.
+This relatively simple design pattern is applicable to a wide range of curation tasks and is supported in our case by the following high-level object types (with examples from two domains Job Hunting and Literature Review):
 
-The first is job hunting. Not the most glamorous use case, but a genuinely painful information problem (and a relatively simple use case): too many postings, too little signal, and the cognitive burden of tracking everything across spreadsheets and browser tabs while also trying to prepare for interviews and maintain morale. The system ingests job postings from URLs you share with it, extracts the requirements, maps them against your profile, identifies gaps, and tracks where you are in each process. Run overnight, it can forage for new postings matching a set of criteria and bring you a morning briefing. The knowledge graph means it can answer questions across your entire search—"what skills keep appearing in the jobs I'm most excited about?"—not just about individual postings in isolation.
+| Alhazen Type | Your Domain | Example (Job Hunt) | Example (Skill Building) |
+|--------------|-------------|-------------------|---------------------|
+| **Collection** | Groupings of entities of interest | "High priority roles" | "Biological models" |
+| **Thing** | Primary items you track | Company, Position | Agent Skill |
+| **Relations** | Relationships between things | Links between postions and conversations | Links between schema and design gaps |
+| **Artifact** | Raw captured content | Job Description | Schema File, Script |
+| **Fragment** | Extracted pieces | Requirement | Function |
+| **Note** | Claude's analysis | Fit Analysis | Skill design gap |
 
-The second is rare disease investigation—and this one matters in a different way. Rare disease patients wait an average of four to seven years for a correct diagnosis. They typically see eight or more physicians. Their conditions are described across scattered case reports, orphan disease databases, and specialist literature that no single clinician can hold in their head. The system works through a structured investigative process: starting from a set of symptoms, it queries clinical databases and genomic resources, generates candidate diagnoses ranked by evidence, traces the genetic and phenotypic connections between them, and surfaces the literature that most directly bears on the case. It's not replacing a geneticist's judgment—it's giving that judgment the breadth of information it needs to work with.
+Here, we explicitly define classes of entities that model information artifacts that pertain to the things under study. Papers may describe scientific phenomena; online postings describe job opportunities. Tracking the relationship between your research's end product about a 'thing' requires you to track how you came to derive that end product from existing sources. 
 
-Both workflows share the same underlying architecture: a knowledge graph that accumulates understanding over time, an AI that reads and reasons rather than just retrieves, and a persistent deployment that does the slow work of information gathering so that human attention can be reserved for the questions that most require it.
+**Worked Examples**
 
----
+We describe two examples of the system's use: 
 
-There's a design principle baked into all of this: the [bitter lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html). Richard Sutton's observation—that general methods leveraging computation reliably beat hand-engineered approaches in the long run—applies here. I don't write extraction rules for job requirements or hand-code entity recognizers for rare disease phenotypes. I let Alhazen read, comprehend, and extract, and I build the structure that stores what it finds. As Alhazen gets better, the system gets better, without any changes on my end.
+The first is job hunting. Not the most glamorous, but a genuinely painful information problem: too many postings, too little signal, and the cognitive burden of tracking everything across spreadsheets and browser tabs while also trying to prepare for interviews and maintain morale. The system ingests job postings from URLs you share with it, extracts the requirements, maps them against your profile, identifies gaps, and tracks where you are in each process. It enables Claude to act as your coach - directly, even extensively if you'd like to build out its capabilities. This [YouTube Video](https://www.youtube.com/watch?v=AwxpI7Svtbk) provides a walk-through provides a demonstration of the system performing a mock job search for Albert Einstein in the Bay Area in March 2026. 
 
-The schema isn't just storage. It's the conceptual vocabulary for a domain—the set of things Alhazen thinks *with* when it reasons about a job search or a diagnostic puzzle. Defining that schema carefully is where the real intellectual work happens. Everything else follows.
-
----
+The second example is the meta-skill of domain-modeling / skill-building. This is the key to the entire approach since it provides a framework for developing prompts, TypeDB schema, scripts, dashboards, and documentation for Claude skills based on source documents. This is developed as a curation task based on design specification artifacts (either supplied by a user or inferred by Claude from descriptions). The objects that are generated by this process are the source files of a skill. All the  information that informed the design choices in creating that skill are recorded in the TypeDB knowledge graph. If a design gap or error is noted as the skill is being used, a note can be recorded, which then can be retrieved and used as context to modify any of the skill’s components. This virtuous cycle could be used to automatically improve Alhazen Notebook skills’ performance over time.
 
 Ibn al-Haytham produced his greatest work under constraint. There's something in that worth sitting with. The conditions that force you to be methodical, to slow down, to build rather than browse—they tend to produce something more durable than the frantic pace of open-ended exploration.
 
-That's what I'm trying to build here: a system that is methodical by design, that accumulates rather than forgets, that interrogates rather than collects. An enemy of what it reads, in the best sense.
+That’s what I’m trying to build here: a system that is methodical by design. An enemy of what it reads - in the best sense possible - with the truth as it’s goal.
 
-**Repository**: [github.com/GullyBurns/skillful-alhazen](https://github.com/GullyBurns/skillful-alhazen) · Forked from [chanzuckerberg/alhazen](https://github.com/chanzuckerberg/alhazen)
+**Repository**: [github.com/sciknow-io/skillful-alhazen](https://github.com/sciknow-io/skillful-alhazen) · Forked from [chanzuckerberg/alhazen](https://github.com/chanzuckerberg/alhazen)
